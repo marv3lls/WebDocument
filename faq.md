@@ -24,19 +24,6 @@
 >Mac は Metal に対応していれば動作します。2012年製品でも動作するようですがサポート対象外です。
 
 
-### 最初からモデルが同封されているようですがどこにありますか？
-
->東北ずん子(VRM)と友利ユナ(Live2D版のみ同封)は下記のフォルダにあります。
-
->Windows
->C:\Program Files\PLUSPLUS\3tenePro+Live2D\3tene_Data\StreamingAssets\2Dmodel
->C:\Program Files\PLUSPLUS\3tenePro+Live2D\3tene_Data\StreamingAssets\3Dmodel
-
->Mac
->/StreamingAssets/2Dmodel
->/StreamingAssets/3Dmodel
-
-
 ### 同封されている東北ずん子(VRM)の利用に制限はありますか？
 
 >クリエイターは非商用なら利用可能です。
@@ -45,11 +32,34 @@
 >詳しくは[公式サイト](https://zunko.jp/guideline.html)を参照してください。
 
 
+### 同封されているみとね(Live2D)の利用に制限はありますか？
+
+>3teneの公式マスコット「みとね」は
+>個人、法人、商用の有無に関わらず自由に利用できます。
+![画像](image/mitone.png "みとね")
+>ただし、法令及び公序良俗に反するもの、キャラクターのイメージを損なうもの、
+>特定の個人、政党、宗教団体を支援するものや
+>上記に該当するおそれがあるものには利用できません。
+
+
 ### 同封されている友利ユナ(Live2D)の利用に制限はありますか？
 
 >自己責任のもと、動画投稿・生配信用のアバターとして使用する事が可能です。
 ![画像](image/tomori_yuna.png "友利ユナ")
 >詳しくは「JK_Tomori_yunaフォルダ」の「最初にお読み下さい_取扱説明書.txt」を参照してください。
+
+
+### 最初から同封されているモデルはどこにありますか？
+
+>東北ずん子(VRM)、みとね＆友利ユナ(Live2D版のみ同封)は下記のフォルダにあります。
+
+>Windows
+>C:\Program Files\PLUSPLUS\3tenePro+Live2D\3tene_Data\StreamingAssets\2Dmodel
+>C:\Program Files\PLUSPLUS\3tenePro+Live2D\3tene_Data\StreamingAssets\3Dmodel
+
+>Mac
+>/StreamingAssets/2Dmodel
+>/StreamingAssets/3Dmodel
 
 
 ### 個人事業主ですがフリー版は利用可能ですか？
