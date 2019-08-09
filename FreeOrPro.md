@@ -17,6 +17,7 @@
 
 >ただし、使用する PC に VR Ready の性能が必要になります。
 
+><font color="Blue">※HTC Vive Pro では動作確認をしていません。</font>
 ><font color="Blue">※Oculus Rift S では動作確認をしていません。</font>
 ><font color="Red">※Oculus Go および Oculus Quest には対応していません。</font>
 
