@@ -13,6 +13,23 @@
 >2. 不具合が発生する手順
 >3. 3tene から取得したPC構成
 
+●記入例
+```
+アバターの読み込みでエラーが発生します。
+エラーメッセージは「VRMファイルの読み込みに失敗しました」です。
+
+※手順
+左側メニュー → アバターの選択 → 自作したVRMを指定する。
+
+※PC構成
+3tenePro v1.10.6 for Windows
+OS: Windows 10  (10.0.0) 64bit
+CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz / 8 cores
+GPU: Intel(R) HD Graphics 4600 / 1136 MB
+API: Direct3D11
+Memory: 16037.0 MB
+Resolution: 1920 x 1080 RefreshRate: 59Hz
+```
 
 ### 3tene でPC構成を取得する手順
 

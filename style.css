@@ -76,6 +76,11 @@ table > tbody tr:nth-child(even) {
 table > tbody tr:nth-child(odd) {
   background: #fff;
 }
+code {
+  display: block;
+  background-color: #efefef;
+}
+
 
 /* test markdown */
 .markdown {
