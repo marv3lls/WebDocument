@@ -78,6 +78,7 @@ table > tbody tr:nth-child(odd) {
 }
 code {
   display: block;
+  padding: 10px;
   background-color: #efefef;
 }
 
