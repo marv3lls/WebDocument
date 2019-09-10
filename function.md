@@ -38,7 +38,7 @@
 ### LeapMotion
 
 >専用センサーで腕、手、指を動かします。
->準備中。
+>[LeapMotionについて](#leapmotion.md)
 
 
 ### RealSense + Nuitrack
