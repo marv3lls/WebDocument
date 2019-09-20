@@ -17,8 +17,7 @@
 >　（Core-i7 4770 と GeForce GTX 1050 Ti の組み合わせで処理落ちは感じられません。）
 
 >・PerceptionNeuron 本体（センサー32個もしくは18個）
->　弊社では PerceptionNeuron 2.0 で動作確認を行っております。
->　<font color="Blue">※PerceptionNeuron Pro は未確認となります。</font>
+>　<font color="Red">※PerceptionNeuron Ver 2.0 および Pro で動作を確認しています。</font>
 
 >・モバイルバッテリー (出力 2A 以上が必須。)
 >　※モバイルバッテリーが必要になるケース
@@ -35,6 +34,8 @@
 >2. Axis Neuron を起動する。
 >3. 各種設定を行う。
 
+><font color="Red">※PerceptionNeuron Pro を使用する場合は Axis Neuron も PRO 版をインストールしてください。</font>
+
 
 ### PerceptionNeuron を装着する前に
 
@@ -43,7 +44,7 @@
 >・部屋の電気製品は可能な限り電源を OFF にする。（可能ならコンセントから抜く。）
 
 
-### PerceptionNeuron の装着
+### PerceptionNeuron Ver 2 の装着
 
 > 1. 袋から各部位の固定ベルトを取り出して金属ケースに入っているセンサーを取り付ける。
 > 2. 固定ベルト「体頭」を装着する。
@@ -64,6 +65,11 @@
 >15. Axis Neuron の右側にある「Sensor Map」でセンサーが全て緑もしくは黄色で認識しているのを確認してください。
 >　　センサーが全て点灯しているのに「Sensor Map」で認識していない場合は
 >　　「Disconnect」で切断し、「Connect」で再接続後に認識を確認してください。
+
+
+### PerceptionNeuron Pro の装着
+
+準備中。
 
 
 ### Axis Neuron よる PerceptionNeuron のキャリブレーション
