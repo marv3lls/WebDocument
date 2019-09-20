@@ -47,6 +47,7 @@
 ### Perception Neuron (全身装着型センサー - Perception Neuron版のみ)
 >顔以外の全身モーションキャプチャが可能。
 >指にも対応しています。（Perception Neuron Pro は指に非対応。）
+>[Perception Neuronについて](#PerceptionNeuron.md)
 
 >製品の仕様により磁気に弱いという性質があり、
 >電気製品などが無い部屋を用意する必要があるかと思います。
