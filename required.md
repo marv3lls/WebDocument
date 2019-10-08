@@ -4,7 +4,7 @@
 
 ||Windows|
 |---|:---|
-|CPU|Intel i5-4590以上 もしくはAMD FX8350以上|
+|CPU|Intel Core i5-4590以上 もしくはAMD FX8350以上|
 |メモリ| 4GB以上|
 |グラフィックボード|NVIDIA GeForce GTX 970/AMD RADEON R9 290以上|
 |ディスプレイ出力|HDMI 1.4もしくはDisplayPort 1.2|
