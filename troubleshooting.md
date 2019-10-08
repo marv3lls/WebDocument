@@ -136,6 +136,18 @@
 >今後、修正を行う予定です。
 
 
+### Perception Neuron が動作しません。
+
+>別途、Axis Neuron (PRO) のインストールが必要です。
+
+>Axis Neuron を起動して設定変更を行う。
+>　※Settingsの「Broadcating」タブを選択し、「BVH」の「Enable」を選択する。
+>Axis Neuron で Perception Neuron の接続を行う。
+>Axis Neuron で Perception Neuron のキャリブレーションを行う。
+>Axis Neuron を起動したまま 3tene を起動します。
+>3tene → アバターの調整 → 設定 → 操作方法を「PerceptionNeuron」に変更します。
+
+
 ### VR が動作しません。
 
 >別途、SteamVR のインストールが必要です。
@@ -178,8 +190,11 @@
 
 ### ショートカットの左手、右手が動作しません
 
->全身トラッキング中(VR, Nuitrack, PerceptionNeuron)のみ動作します。
+>全身トラッキング中(VR, Nuitrack, Perception Neuron)のみ動作します。
 >[仕様条件](#shortcut.md)を見たいしているかを確認してください。
+
+>Perception Neuron の場合はアバター調整の「設定」→「全ての指を制御する」の
+>チェックを外していないと手の形状は変化しません。
 
 
 ### アバターの頭や顔のパーツが描画されません。
