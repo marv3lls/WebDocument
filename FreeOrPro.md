@@ -17,6 +17,7 @@
 
 >ただし、使用する PC に VR Ready の性能が必要になります。
 
+><font color="Blue">※HTC Vive Cosmos では動作確認をしていません。</font>
 ><font color="Blue">※Oculus Rift S では動作確認をしていません。</font>
 ><font color="Red">※Oculus Go および Oculus Quest には対応していません。</font>
 
@@ -30,15 +31,17 @@
 >また PC 側のセキュリティ（ファイアウォール）の設定を
 >変更しないと通信接続が成功しない場合があります。
 
+
 ### RealSense + Nuitrack が使える（Windows版のみ）
 
 >専用カメラによる全身制御が可能になります。
 >フェイストラッキングも合わせて使用可能です。
 
+
 ### Live2D のモデルが使える
 
 >PRO+Live2D 版のみ使用可能です。
->（PRO版では使用できません。）
+>（PRO 版では使用できません。）
 
 >なお、 Live2D Cubism で作成されたモデルデータのみ対応となります。
 
@@ -52,5 +55,18 @@
 ### ポストエフェクトが使える
 
 >アンチエイリアスを使ってジャギーを目立たなくしたりする事が可能です。
+
+
+### Perception Neuron が使える
+
+>3teneSTUDIO のみ対応しています。
+>（PRO および PRO+Live2D では使用できません。）
+
+
+### モデルを３人まで表示できる
+
+>3teneSTUDIO のみ対応しています。
+>（PRO および PRO+Live2D では使用できません。）
+
 
 

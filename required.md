@@ -26,10 +26,14 @@
 |ウェブカメラ|無くても可|←|
 
 
-### 動作確認済みカメラ
+### 動作確認済みのウェブカメラ
 
 Logicool HD Webcam C270
 Elecom UCAM-DLV300T
+
+
+<font color="Red">※複数のウェブカメラの同時使用は Logicool HD Webcam C270 のみ動作確認しています。</font>
+<font color="Blue">（メーカー配布のソフトウェアをインストールして専用ドライバを使用してください。）</font>
 
 
 ### 対応している VR 機器

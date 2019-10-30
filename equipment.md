@@ -7,6 +7,9 @@
 >顔認識を可能にします。
 >まぶた、口、顔の向き、上半身の傾きを認識し、モデルに同じ状態を再現します。
 
+>また、プロ版では背景にウェブカメラ映像を使う事が可能です。
+><font color="Red">※ウェブカメラが標準ドライバで動作していると同時に使用できない可能性があります。</font>
+
 ### LeapMotion (USB接続の専用カメラ)
 >腕および手を認識し、指の動きまでモデルに同じ状態を再現します。
 >モデルの上半身だけ表示させるアナウンサーのようなスタイルにはお勧めです。
@@ -34,6 +37,7 @@
 >※使用には広い空間(2メートル×2メートル以上)が必要かと思います。
 
 ><font color="Blue">HTC Vive Pro はアップグレード、フルセットどちらでも動作します。</font>
+><font color="Blue">※HTC Vive Cosmos では動作確認をしていません。</font>
 
 ### Oculus Rift (VR機器 - プロ版のみ)
 >ゴーグル（頭）、コントローラー（手）×２を使って、頭と手の位置で
@@ -44,7 +48,7 @@
 ><font color="Blue">※Oculus Rift S では動作確認をしていません。</font>
 ><font color="Red">※Oculus Go および Oculus Quest には対応していません。</font>
 
-### Perception Neuron (全身装着型センサー - Perception Neuron版のみ)
+### Perception Neuron (全身装着型センサー - 3teneSTUDIO のみ対応)
 >顔以外の全身モーションキャプチャが可能。
 >指にも対応しています。（Perception Neuron Pro は指に非対応。）
 >[Perception Neuronについて](#PerceptionNeuron.md)
