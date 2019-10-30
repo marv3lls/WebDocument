@@ -11,4 +11,5 @@
 - [トラブルシューティング](#troubleshooting.md)
 - [不具合の問い合わせ](#inquiry.md)
 - [用語集](#glossary.md)
+- [3teneの購入](#buy3tene.md)
 
