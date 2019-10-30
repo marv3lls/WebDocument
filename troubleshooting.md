@@ -160,10 +160,12 @@
 
 >Axis Neuron を起動して設定変更を行う。
 >　※Settingsの「Broadcating」タブを選択し、「BVH」の「Enable」を選択する。
->Axis Neuron で Perception Neuron の接続を行う。
+>Axis Neuron で Perception Neuron のハブに接続を行う。
 >Axis Neuron で Perception Neuron のキャリブレーションを行う。
 >Axis Neuron を起動したまま 3tene を起動します。
 >3tene → アバターの調整 → 設定 → 操作方法を「PerceptionNeuron」に変更します。
+
+>[Perception Neuronについて](#PerceptionNeuron.md)
 
 
 ### VR が動作しません。
