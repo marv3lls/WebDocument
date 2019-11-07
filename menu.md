@@ -6,6 +6,7 @@
 - [Mac版の制限](#mac.md)
 - [メニューについて](#AboutMenu.md)
 - [各種機能について](#function.md)
+- [VRMについて](#vrm.md)
 - [関連動画](#movie.md)
 - [FAQ](#faq.md)
 - [トラブルシューティング](#troubleshooting.md)
