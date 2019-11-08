@@ -24,6 +24,11 @@ h3{
   border-left: solid 30px #199cd4;
   padding: 30px;
 }
+.st-Header .studio{
+  background: #fcd9e6;
+  border-left: solid 30px #d84078;
+  padding: 30px;
+}
 .main-block{
   display: table;
   width: 100%;
