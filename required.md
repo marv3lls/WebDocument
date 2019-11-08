@@ -30,19 +30,24 @@
 
 ### 動作確認済みのウェブカメラ
 
-Logicool HD Webcam C270
-Elecom UCAM-DLV300T
+>Logicool HD Webcam C270
+>BUFFALO BSW20KM05
+>Elecom UCAM-DLV300T
 
+>汎用ウェブカメラで 3tene のフェイストラッキングは動作しますが、
+>3tenePRO および 3teneSTUDIO で複数フェイストラッキングや背景で
+><font color="Blue">複数のウェブカメラを同時に使う場合</font>は <font color="Red">Logicool HD Webcam C270</font> を
+><font color="Red">専用ドライバ (メーカー配布の専用ソフトウェアをインストール)</font>で動作させてください。
 
-<font color="Red">※複数のウェブカメラの同時使用は Logicool HD Webcam C270 のみ動作確認しています。</font>
-<font color="Blue">（メーカー配布のソフトウェアをインストールして専用ドライバを使用してください。）</font>
+>Windows では汎用ウェブカメラは１度に１つしか動作しないと思われます。
+>(汎用ウェブカメラ ＋ Logicool HD Webcam C270 で２個同時使用は可能です。)
 
 
 ### 対応している VR 機器
 
-・HTC VIVE (Viveトラッカーは3点まで追加可能)
-・Oculus Rift (Mac 版は非対応)
-※VRモードを使用するにはSteamVRをインストールする必要があります。
+>・HTC VIVE (Viveトラッカーは3点まで追加可能)
+>・Oculus Rift (Mac 版は非対応)
+>※VRモードを使用するにはSteamVRをインストールする必要があります。
 
 
 
