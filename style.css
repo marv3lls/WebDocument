@@ -17,17 +17,17 @@ h3{
 .st-Header .free{
   background: #e5f9dd;
   border-left: solid 30px #99c942;
-  padding: 30px;
+  padding: 10px 30px;
 }
 .st-Header .pro{
   background: #e8f5fb;
   border-left: solid 30px #199cd4;
-  padding: 30px;
+  padding: 10px 30px;
 }
 .st-Header .studio{
   background: #fcd9e6;
   border-left: solid 30px #d84078;
-  padding: 30px;
+  padding: 10px 30px;
 }
 .main-block{
   display: table;
