@@ -25,6 +25,8 @@
 |OS|Windows 7 SP1 64bit 以降|High Sierra 10.13.6以降|
 |ウェブカメラ|無くても可|←|
 
+<font color="Red">※MacBook (Pro、Air 含む) シリーズは2013以降のモデルを対象としています。</font>
+
 
 ### 動作確認済みのウェブカメラ
 
