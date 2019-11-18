@@ -14,6 +14,9 @@ jQuery(function($){
   });
 
   function showContents(){
+// add (S) スクロール位置をトップに戻す。
+    $(window).scrollTop(0);
+// add (E)
     var url = location.hash.replace('#', '');
     if(url){
       $.ajax({
