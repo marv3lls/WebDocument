@@ -2,7 +2,7 @@
 
 - [動作環境](#required.md)
 - [対応機器](#equipment.md)
-- [フリー版とプロ版の違い](#FreeOrPro.md)
+- [無料版と有料版の違い](#FreeOrPro.md)
 - [Mac版の制限](#mac.md)
 - [機能の使い方](#function.md)
 - [VRMについて](#vrm.md)
@@ -11,5 +11,5 @@
 - [トラブルシューティング](#troubleshooting.md)
 - [不具合の問い合わせ](#inquiry.md)
 - [用語集](#glossary.md)
-- [3teneの購入](#buy3tene.md)
+- [3teneの購入、更新](#buy3tene.md)
 
