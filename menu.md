@@ -4,7 +4,7 @@
 - [対応機器](#equipment.md)
 - [フリー版とプロ版の違い](#FreeOrPro.md)
 - [Mac版の制限](#mac.md)
-- [各種機能について](#function.md)
+- [機能の使い方](#function.md)
 - [VRMについて](#vrm.md)
 - [関連動画](#movie.md)
 - [FAQ](#faq.md)
