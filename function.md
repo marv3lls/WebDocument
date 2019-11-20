@@ -23,7 +23,7 @@
 ### フェイストラッキング（iPhoneX）
 
 >iPhoneX 以降と連携して高精度フェイストラッキングを行います。
->利用手順：<a href="https://3tene.com/iphonex_ft_howto" target="_blank">公式サイト</a>
+>[iPhoneX フェイストラッキングについて](#ft_iphone.md)
 
 <!--
 利用手順： [公式サイト](https://3tene.com/iphonex_ft_howto){:target="_blank"}
