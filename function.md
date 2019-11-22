@@ -68,8 +68,6 @@
 >骨格認識での全身を動かします。
 >[Nuitrack について](#nuitrack.md)
 
->RealSense + Nuitrack 導入方法：<a href="https://3tene.com/realsense_introduction/" target="_blank">公式サイト</a>
-
 
 ### VR
 
@@ -117,7 +115,7 @@
 
 >UnityCapture と連携して仮想カメラに画面を出力します。
 >メニュー等の2D画像は出力されないので OBS を使う場合にお勧めです。
->[仮想カメラについて](#VirtualCamera.md)ください。
+>[仮想カメラについて](#VirtualCamera.md)
 
 
 ### Live2D の対応
