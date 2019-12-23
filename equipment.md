@@ -16,19 +16,19 @@
 >モデル全体を表示させる用途に使用するには難しいかも知れません。
 >顔認識機能は無いのでウェブカメラ等と組み合わせて使います。
 
-### RealSense + Nuitrack (USB接続の専用カメラ - プロ版のみ)
+### RealSense + Nuitrack (USB接続の専用カメラ - 3teneFREE は非対応)
 >深度カメラで体全体を認識し、骨格トラッキングによりモデルに同じ状態を再現します。
 >全身を写す為にカメラから離れると顔認識が難しくなる場合があります。
 ><font color="Red">※1 RealSense だけでなく Nuitrack (有料ソフトウェア)の購入が必要です。</font>
 ><font color="Blue">※2 使用には広い空間(2メートル×3メートル程度)が必要かと思います。</font>
 
-### iPhoneX 以降（スマートフォン - プロ版のみ）
+### iPhoneX 以降（スマートフォン - 3teneFREE は非対応）
 >iPhoneX のカメラ機能で顔認識行い、認識結果を WiFi でPCに送信して顔認識を行います。
 >ウェブカメラ使用時と同等の機能があり、ウェブカメラよりも高精度で
 >目の動きを再現するアイトラッキングが使用可能になります。
 >首掛け式の自撮り棒を使う事で両手が空くので他の操作が可能になります。
 
-### HTC Vive (VR機器 - プロ版のみ)
+### HTC Vive (VR機器 - 3teneFREE は非対応)
 >ゴーグル（頭）、コントローラー（手）×２を使って、
 >頭と手の位置でモデルを動かします。またモデルの移動が可能になります。
 >コントローラーのボタンで表情等を操作する事も可能です。
@@ -39,14 +39,15 @@
 ><font color="Blue">HTC Vive Pro はアップグレード、フルセットどちらでも動作します。</font>
 ><font color="Blue">※HTC Vive Cosmos では動作確認をしていません。</font>
 
-### Oculus Rift (VR機器 - プロ版のみ)
+### Oculus Rift (VR機器 - 3teneFREE は非対応)
 >ゴーグル（頭）、コントローラー（手）×２を使って、頭と手の位置で
 >モデルを動かします。モデルの移動は可能ですが足の完全な制御はできません。
 >コントローラーのボタンで表情等を操作する事も可能です。
 >※使用には広い空間(2メートル×2メートル以上)が必要かと思います。
 
 ><font color="Blue">※Oculus Rift S では動作確認をしていません。</font>
-><font color="Red">※Oculus Go および Oculus Quest には対応していません。</font>
+><font color="Blue">※Oculus Quest + Oculus Link では動作確認をしていません。</font>
+><font color="Red">※Oculus Go および Oculus Quest (単体) には対応していません。</font>
 
 ### Perception Neuron (全身装着型センサー - 3teneSTUDIO のみ対応)
 >顔以外の全身モーションキャプチャが可能。
