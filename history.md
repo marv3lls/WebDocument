@@ -86,13 +86,13 @@
 - 機能追加・調整
   - オブジェクト読み込みの成功、失敗を表示するように調整
   - 【PRO】フェイストラッキング(iPhoneX)の目の処理を調整
-  - 【PRO】フェイストラッキング(iPhoneX)の複数人対応。(3teneFT 1.0.1 が必要。)
+  - 【STUDIO】フェイストラッキング(iPhoneX)の複数人対応。(3teneFT 1.0.1 が必要。)
 
 - 不具合修正
   - オブジェクトの配置で首より下が選択と合っていないのを修正
   - LeapMotion の初期化を修正
   - 【PRO】フェイストラッキング(iPhoneX)の応答性の設定数値が逆になっていたのを修正
-  - 【PRO】Live2Dで目線を手動で変えるとアイトラッキングが動作しなくなるのを修正（3tenePro+Live2D）
+  - 【PRO】Live2Dで目線を手動で変えるとアイトラッキングが動作しなくなるのを修正（3tenePRO+Live2D）
 
 ### v1.10.11 2019/10/11
 
@@ -128,15 +128,15 @@
 
 - 機能追加・調整
   - OVLipSync を 1.30.0 から 1.40.0 に更新
-  - 【PRO】Live2Dモデルのサムネイルの設定出来るように変更（3tenePro+Live2D）  
+  - 【PRO】Live2Dモデルのサムネイルの設定出来るように変更（3tenePRO+Live2D）  
 　※読み込むLive2Dフォルダに thumbnail.png で追加したファイルを表示します。（推奨：512×512）
-  - 【PRO】Cubism 3 SDK for Unity R12 から Cubism 4 SDK for Unity beta1 に更新（3tenePro+Live2D）
+  - 【PRO】Cubism 3 SDK for Unity R12 から Cubism 4 SDK for Unity beta1 に更新（3tenePRO+Live2D）
 　※以前のバージョンの 3tene では、Cubism 4 で作成した Live2Dは読み込むことができません。アップデートをお願い致します。
 
 - 不具合修正
   - リップシンクのエラーメッセージを多言語化
   - リップシンクで口が開いた状態でリップシンクをOFFにした時、口が閉じるように修正
-  - 【PRO】Live2Dモデルのサムネイルの表示が崩れてしまうのを修正（3tenePro+Live2D）
+  - 【PRO】Live2Dモデルのサムネイルの表示が崩れてしまうのを修正（3tenePRO+Live2D）
 　※既に3teneに読み込んであるLive2Dモデルは一度削除し、再度読み込みをお願い致します。
 
 ### v1.10.8 2019/09/06
@@ -180,7 +180,7 @@
   - リップシンクの起動処理を修正
   - 【PRO】VR でモデル切り替え時にトラッカーを全解除してから再検出するように修正
   - 【PRO】RealSense を接続しない状態のNuitrackフェイストラッキング開始の不具合を修正
-  - 【PRO】Live2D モデルでフェイストラッキングの設定が復帰されないのを修正（3tenePro+Live2D）
+  - 【PRO】Live2D モデルでフェイストラッキングの設定が復帰されないのを修正（3tenePRO+Live2D）
 
 ### v1.10.5 2019/08/09
 
@@ -236,7 +236,7 @@
 - 不具合修正
   - USBマイクを外した後のリップシンク入力音源の選択不具合を修正
   - ダイアログのデザインを修正
-  - 【PRO】フェイストラッキングの種類に「iPhoneX」「Nuitrack」がなかったのを修正（3tenePro+Live2D）
+  - 【PRO】フェイストラッキングの種類に「iPhoneX」「Nuitrack」がなかったのを修正（3tenePRO+Live2D）
 
 ### v1.10.1 2019/07/12
 
@@ -271,8 +271,8 @@
 　　【PRO】Live2D で保存したアングルは VRM で読み込めません。
   - VRM の初回表示のカメラ位置をモデルを元に計算するように変更
   - アバターの調整 - アバターの操作方法 の項目名を変更
-  - 【PRO】Live2D のモデルを読み込んだ場合の初回表示で全身が表示されるように変更（3tenePro+Live2D）
-  - 【PRO】Live2Dモデル 友利ユナ（JK_Tomori_yuna） を更新（3tenePro+Live2D）
+  - 【PRO】Live2D のモデルを読み込んだ場合の初回表示で全身が表示されるように変更（3tenePRO+Live2D）
+  - 【PRO】Live2Dモデル 友利ユナ（JK_Tomori_yuna） を更新（3tenePRO+Live2D）
 
 - 不具合修正
   - カメラ操作を切り替えても表示が変わらないように修正
