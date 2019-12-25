@@ -50,7 +50,8 @@
 >上記を入力し追加
 >3teneProのRealSense起動
 
->Nuitrackによるフェイストラッキングの設定
+### Nuitrackによるフェイストラッキングの設定
+
 >Nuitrackによるフェイストラッキングをご利用の際はお手数をお掛け致しますが、下記の手順を行ってください。
 
 >Nuitrackの設定の際にインストールした nuitrack-win64/nuitrack のデフォルトの設定では、
