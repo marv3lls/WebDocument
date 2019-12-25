@@ -72,7 +72,7 @@
 ### VR
 
 >VR 機器を使って全身を動かします。
->準備中。
+>[VR について](#UsingVR.md)
 
 
 ### Perception Neuron
