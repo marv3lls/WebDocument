@@ -41,8 +41,8 @@ h3{
   min-height: 800px;
 }
 .st-SubMenu{
-  padding: 2%;
-  width: 26%;
+  padding: 30px;
+  width: 300px;
   background-color: #ccc;
   color: #333;
 }
@@ -50,8 +50,8 @@ h3{
   color:#333; 
 }
 .st-MainContents{
-  padding: 2%;
-  width: 66%;
+  padding: 30px;
+  width: auto;
   /*background-color: #eee;*/
 }
 /* table color */
