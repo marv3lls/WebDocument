@@ -1,7 +1,8 @@
 ## iPhoneX フェイストラッキングについて
 
 >iPhoneX 以降にフェイストラッキング アプリ 3teneFT をインストールする事で
->高精度のフェイストラッキング、アイトラッキングが 3tenePRO で利用できます。
+><font color="Blue">高精度のフェイストラッキング、アイトラッキングが 3tene (PRO、STUDIO) で利用できます。</font>
+>※3teneFREE では利用できません。
 
 >また、iPhoneX の高精度のフェイストラッキングを利用することにより、
 >左右別々でのまばたきも可能になっています。
@@ -13,9 +14,9 @@
 
 >上記リンクまたは App Store で 3teneFT を検索してインストールをしてください。
 
-### 3tenePRO と 3teneFT の接続について
+### 3tene と 3teneFT の接続について
 
->3tenePRO と 3teneFT を接続するには iPhone の通信方法を WiFi に切り替える必要があります。
+>3tene と 3teneFT を接続するには iPhone の通信方法を WiFi に切り替える必要があります。
 >キャリア通信(docomo、au、SoftBank)のインターネット経由では接続ができません。
 
 ><font color="Blue">PC とルーターを接続し、そのルーターの WiFi に iPhone を接続してください。</font>
@@ -24,16 +25,31 @@
 ![画像](image/iphonex_ft_howto_0.jpg "")
 
 >また、 PC のセキュリティソフトのファイアーウォールが有効の場合に
-><font color="Blue">3tenePRO と 3teneFT の接続がブロックされる事があります。</font>
->使用しているセキュリティソフトのファイアウォール設定を変更し、
->3tenePRO または 3tenePRO+Live2D の通信の許可や、ブロック解除を行ってください。
+><font color="Red">3tene と 3teneFT の接続がブロックされる事があります。</font>
+>使用している<font color="Blue">セキュリティソフト</font>のファイアウォール設定を変更する事で
+>通信が可能になります。
+
+>ファイアウォールの設定には<font color="Red">完全に無効</font>にする方法と
+><font color="Red">指定したアプリのみブロック対象外</font>にする設定が用意されている場合がほとんどです。
+
+><font color="Red">ファイアウォールの完全無効はリスクを伴う</font>ので初回確認時のみ利用し、
+>3teneFT との接続確認が取れてからは<font color="Blue">3tene の通信の許可や、ブロック対象外</font>の設定を
+>セキュリティソフトに追加して利用するようにしてください。
+
+>#### セキュリティソフト
 
 >Windows Defender ファイアウォール の設定は<a href="https://support.microsoft.com/ja-jp/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off" target="_blank">こちら</a>
+>アバスト <a href="https://www.avast.co.jp/" target="_blank">公式サイト</a>
+>ウイルスバスター <a href="https://virusbuster.jp/" target="_blank">公式サイト</a>
+>カスペルスキー <a href="https://www.kaspersky.co.jp/" target="_blank">公式サイト</a>
+>ノートン <a href="https://jp.norton.com/" target="_blank">公式サイト</a>
+>マカフィー <a href="https://www.mcafee.com/japan/home/" target="_blank">公式サイト</a>
+>ESET <a href="https://eset-info.canon-its.jp/" target="_blank">公式サイト</a>
 
 
 ### 3teneFT側でIPアドレスの設定
 
->まずは 3teneFT に入力するIPアドレスを 3tenePRO から確認します。
+>まずは 3teneFT に入力するIPアドレスを 3tene から確認します。
 >設定 → 「システム」タブを選択してIPアドレスを表示します。
 
 
@@ -48,9 +64,9 @@
 
 ![画像](image/iphonex_ft_howto_2.jpg "")
 
-### 3tenePROと3teneFTの接続方法
+### 3tene と 3teneFT の接続方法
 
->3tenePRO側
+>3tene側
 >・アバターの調整 → 「設定」タブ → フェイストラッキングの種類 を iPhoneX に変更します。
 
 ![画像](image/iphonex_ft_howto_3.png "")
@@ -89,7 +105,7 @@
 
 ![画像](image/iphonex_ft_howto_6.jpg "")
 
->3tenePRO と 3teneFT が接続されると 3tenePRO の画面右上に接続アイコンが表示されます。
+>3tene と 3teneFT が接続されると 3tene の画面右上に接続アイコンが表示されます。
 >3teneFT 側は「接続要求中」が「接続中」に変化します。
 
 ![画像](image/iphonex_ft_howto_7.png "")
@@ -97,7 +113,7 @@
 ><font color="Red">10秒程度待って接続アイコンが表示されない場合は PC のファイアウォールの確認、
 >もしくは 3teneFT 側のIPアドレス入力を確認してください。</font>
 
->※アバターの調整 内の感度・倍率・まばたきの感度の設定を変更しても反映されません。
+>※アバターの調整「顔」の感度・倍率・まばたきの感度の設定を変更しても反映されません。
 
 
 
