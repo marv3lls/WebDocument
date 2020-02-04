@@ -149,4 +149,16 @@
 >>[その他タブ](#AdjustAvaterOther.md) その他の項目を設定します。
 
 
+### 設定
+
+>3teneの各種設定を行います。
+
+>>[ショートカットタブ](#settingShortcut.md) ショートカットの設定を行います。
+>>[VRタブ](#settingVR.md) VRモード利用時の設定を行います。
+>>[システムタブ](#settingSystem.md) 3teneのシステム関連の設定を行います。
+>>[光源タブ](#settingLight.md) 光源の設定を行います。
+>>[カメラタブ](#settingCamera.md) シーン内カメラの設定を行います。
+>>[録画タブ](#settingRecording.md) 録画、スクリーンショットの設定を行います。
+>>[情報タブ](#settingInfomation.md) 3tene、PC等の情報が書いてあります。
+
 
