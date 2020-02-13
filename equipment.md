@@ -8,7 +8,24 @@
 >まぶた、口、顔の向き、上半身の傾きを認識し、モデルに同じ状態を再現します。
 
 >また、プロ版では背景にウェブカメラ映像を使う事が可能です。
-><font color="Red">※ウェブカメラが標準ドライバで動作していると同時に使用できない可能性があります。</font>
+><font color="Blue">解像度QVGA(320x240)に対応しているウェブカメラが推奨です。</font>
+
+>#### 動作確認済みの機器
+
+><font color="Red">※ウェブカメラが標準ドライバで動作しているとフェイストラッキングと
+>　背景ウェブカメラで同時に使用できない可能性があります。</font>
+
+>Logicool HD Webcam C270
+>BUFFALO BSW20KM05
+>Elecom UCAM-DLV300T
+
+>汎用ウェブカメラで 3tene のフェイストラッキングは動作しますが、
+>3tenePRO および 3teneSTUDIO で複数フェイストラッキングや背景で
+><font color="Blue">複数のウェブカメラを同時に使う場合</font>は <font color="Red">Logicool HD Webcam C270</font> を
+><font color="Red">専用ドライバ (メーカー配布の専用ソフトウェアをインストール)</font>で動作させてください。
+
+>Windows では汎用ウェブカメラは１度に１つしか動作しないと思われます。
+>(汎用ウェブカメラ ＋ Logicool HD Webcam C270 で２個同時使用は可能です。)
 
 ### LeapMotion (USB接続の専用カメラ)
 >腕および手を認識し、指の動きまでモデルに同じ状態を再現します。
@@ -37,7 +54,7 @@
 >※使用には広い空間(2メートル×2メートル以上)が必要かと思います。
 
 ><font color="Blue">HTC Vive Pro はアップグレード、フルセットどちらでも動作します。</font>
-><font color="Blue">※HTC Vive Cosmos では動作確認をしていません。</font>
+><font color="Blue">HTC Vive Cosmos でも動作します。</font>
 
 ### Oculus Rift (VR機器 - 3teneFREE は非対応)
 >ゴーグル（頭）、コントローラー（手）×２を使って、頭と手の位置で
@@ -48,6 +65,7 @@
 ><font color="Blue">※Oculus Rift S では動作確認をしていません。</font>
 ><font color="Blue">※Oculus Quest + Oculus Link では動作確認をしていません。</font>
 ><font color="Red">※Oculus Go および Oculus Quest (単体) には対応していません。</font>
+><font color="Red">※Oculus Rift は Mac に対応していません。</font>
 
 ### Perception Neuron (全身装着型センサー - 3teneSTUDIO のみ対応)
 >顔以外の全身モーションキャプチャが可能。

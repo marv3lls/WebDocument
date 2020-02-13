@@ -21,9 +21,7 @@
 
 >ただし、使用する PC に VR Ready の性能が必要になります。
 
-><font color="Blue">※HTC Vive Cosmos では動作確認をしていません。</font>
-><font color="Blue">※Oculus Rift S では動作確認をしていません。</font>
-><font color="Red">※Oculus Go および Oculus Quest には対応していません。</font>
+>対応VRの機種は[こちら](#equipment.md)を参照してください。
 
 
 ### iPhoneX のフェイストラッキングが使える
