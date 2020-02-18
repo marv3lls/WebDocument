@@ -24,7 +24,6 @@
 >公式サイトに案内がありますので<a href="https://3tene.com/pro/" target="_blank">こちら</a>を参照してください。
 
 >個人向けの 3tenePRO (＋Live2D 含む)、3teneSTUDIO は<font color="Blue">買い切り</font>となります。
-><font color="Red">※現在、個人向け  は販売されていません。</font>
 
 >アップデート版は<font color="Blue">購入したサービス（3teneのウェブサイト、BOOTH）</font>でダウンロードする事が可能です。
 ><font color="Red">※BOOTH で購入した場合は BOOTH にログイン後、「購入した商品 → 注文詳細」から最新版をダウンロード可能です。</font>
