@@ -1,6 +1,7 @@
 ## iPhoneX フェイストラッキングについて
 
->iPhoneX 以降にフェイストラッキング アプリ 3teneFT をインストールする事で
+>iPhoneX 以降（TrueDepthカメラ搭載機種）に 3tene と連携する為の
+>フェイストラッキング アプリ 3teneFT をインストールする事で
 ><font color="Blue">高精度のフェイストラッキング、アイトラッキングが 3tene (PRO、STUDIO) で利用できます。</font>
 >※3teneFREE では利用できません。
 
@@ -15,6 +16,9 @@
 <a href="https://itunes.apple.com/jp/app/3teneft/id1452730104" target="_blank"><img src="image/App_Store.png"/></a>
 
 >上記リンクまたは App Store で 3teneFT を検索してインストールをしてください。
+
+><font color="Blue">3teneFT 1.1.0 以降</font>は <font color="Red">3tene v1.10.20 2020/02/14 以降との組み合わせ</font>で動作します。
+
 
 ### 3tene と 3teneFT の接続について
 
