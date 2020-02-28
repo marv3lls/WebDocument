@@ -1,24 +1,31 @@
 ## ショートカットタブについて
 
->キーボードやゲームパッドを使用してモデル操作を行う機能です。
+>キーボードやゲームパッド、MIDI機器を使用して各種操作を行う機能です。
 
 ### ショートカットの設定の仕方
 
 >ショートカットは設定ウインドウの中にあります。
+
+>ショートカット1 は<font color="Blue">アバターに関連しない</font>ショートカットです。
 ![画像](image/setting_shortcut1.png "ショートカット")
 
->ショートカット1 はアバターに関連しないショートカットです。
->ショートカット2 はアバターに関連するショートカットです。
+>ショートカット2 は<font color="Blue">アバターに関連する</font>ショートカットです。
+>(3teneSTUDIO のみ複数アバターを選択するスロットがあります。)
+![画像](image/setting_shortcut2.png "ショートカット")
+
+><font color="Red">登録した BVH やモデル専用表情など、動的に変化する項目は一覧の下部に追加されます。</font>
+
 
 >ショートカットしたい項目をクリックすると入力ダイアログが表示されるので
 >割り当てたいキーボードのキーかゲームパッドのボタンを押してください。
-![画像](image/setting_shortcut2.png "ショートカット")
+>キャンセルする場合はマウスのボタンをクリックしてください。
+![画像](image/setting_shortcut3.png "ショートカット")
 
 
 ### 注意事項
 
 ><font color="Blue">手の形状</font>は VR、Nuitrack、PerceptionNeuron が動作時のみ使用可能です。
-<font color="Red">顔認識のみ、LeapMotion や Live2D ではこの機能は利用できません。</font>
+><font color="Red">顔認識のみ、LeapMotion や Live2D ではこの機能は利用できません。</font>
 
 ><font color="Blue">PerceptionNeuron で使用する場合は「全ての指を制御する」のチェックを外す必要があります。</font>
 
