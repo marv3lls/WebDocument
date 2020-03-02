@@ -30,6 +30,29 @@
 >※VRM のインポートには対応していません。
 
 
+### 3tene で使用する VRM を作る場合の注意点は？
+
+>VRM を作成する場合の注意点を記載します。
+
+>#### VRoidStudio で作成した VRM について
+>VRoidStudio で作成した VRM を 3tene で読み込むのは問題ありませんが、
+>VRoidStudio で作成した VRM を unity にインポートすると
+>目のボーンの設定値が変化してしまい、目の移動範囲が狭くなります。
+><font color="Blue">VRM へのエクスポート前に目の修正が必要になります。</font>
+
+>また一部の服装で描画崩れが発生する場合は 3tene の
+>設定「システム」タブでクオリティを「Very High」以上に変更してみてください。
+
+
+>#### First Person について
+>3tene では VR に対応している為、VRM は First Person に対応している必要があります。
+>対応していないと目、まぶた、口が２重に表示されるといった現象が発生します。
+
+>VRM を First Person に対応させるか、該当する顔の部位に
+>「Third Person Only」に設定変更を行って First Person を無効にしてください。
+><font color="Blue">※First Person を無効にすると VR 使用時の描画に問題が発生します。</font>
+
+
 ### VRM の仕様は？
 
 >下記のサイトより Unity 用のアセット入手や技術仕様の参照が可能です。
@@ -39,6 +62,6 @@
 >英語：<a href="https://vrm.dev/en/" target="_blank">https://vrm.dev/en/</a>
 
 >VRM の技術仕様 (glTF 2.0 との差異および拡張仕様)
-><a href="https://github.com/vrm-c/vrm-specification/blob/master/specification/0.0/README.ja.md" target="_blank">日本語</a>　<a href="https://github.com/vrm-c/vrm-specification/blob/master/specification/0.0/README.md" target="_blank">英語
+><a href="https://github.com/vrm-c/vrm-specification/blob/master/specification/0.0/README.ja.md" target="_blank">日本語</a>　<a href="https://github.com/vrm-c/vrm-specification/blob/master/specification/0.0/README.md" target="_blank">英語</a>
 
 
