@@ -11,7 +11,8 @@
 |USB|USB2.0 x 1|
 |OS|Windows 7 SP1 64bit 以降|
 
->Perception Neuron を使う場合はメモリは 8GB 以上を推奨します。
+>※Perception Neuron を使う場合はメモリは 8GB 以上を推奨します。
+>※DirectX 11 以降のグラフィック機能が必要になります。
 
 ### 最低動作環境
 
@@ -19,12 +20,13 @@
 |---|:---|---|
 |CPU|Intel Core i5 第3世代以降|←|
 |メモリ|4GB以上|←|
-|グラフィックボード|NVIDIA GeForce GTX 750|Intel Core i3-4000 シリーズ内蔵GPU 以上|
+|グラフィックボード|NVIDIA GeForce GTX 750<br>※DirectX 11 以降対応のグラフィックボード|Intel Core i3-4000 シリーズ内蔵GPU 以上|
 |ディスプレイ出力|HDMI 1.4もしくはDisplayPort 1.2|←|
 |USB|USB2.0 x 1|←|
 |OS|Windows 7 SP1 64bit 以降|High Sierra 10.13.6以降<BR><font color="Blue">Mac OS 10.15.x (Catalina) は対象外。<br>|
 
-<font color="Red">※MacBook (Pro、Air 含む) シリーズは2013以降のモデルを対象としています。</font>
+><font color="Red">※MacBook (Pro、Air 含む) シリーズは2013以降のモデルを対象としています。</font>
+>※DirectX 11 以降のグラフィック機能が必要になります。
 
 
 ### 対応機器
