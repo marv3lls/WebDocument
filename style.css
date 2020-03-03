@@ -30,7 +30,7 @@ h3{
   padding: 10px 30px;
 }
 .main-block{
-  display: table;
+  display: flex;
   width: 100%;
 }
 .st-SubMenu,
@@ -42,9 +42,10 @@ h3{
 }
 .st-SubMenu{
   padding: 30px;
-  width: 300px;
+  min-width: 220px;
   background-color: #ccc;
   color: #333;
+  display: inline-block;
 }
 .st-SubMenu a{
   color:#333; 
