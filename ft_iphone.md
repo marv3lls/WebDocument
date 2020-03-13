@@ -81,6 +81,8 @@
 >さらに<font color="Blue">右側メニュー1番上の「顔認証の実行・停止」をクリックします。（アイコンが緑に変化）</font>
 >フェイストラッキングが開始されると iPhone からの接続待ち状態になります。
 
+><font color="Blue">3teneSTUDIO の開始操作は[こちら](#TrackingWindow.md)になります。</font>
+
 
 ![画像](image/iphonex_ft_howto_4.png "")
 

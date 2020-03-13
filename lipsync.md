@@ -29,6 +29,8 @@
 
 >右側メニューの上から２番目をクリックして有効、無効を切り替えます。
 
+><font color="Blue">3teneSTUDIO の開始操作は[こちら](#TrackingWindow.md)になります。</font>
+
 ![画像](image/menu_lipsync.png "メニューリップシンク")
 
 

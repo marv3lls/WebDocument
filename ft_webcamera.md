@@ -36,6 +36,8 @@
 >口も同時に動かす場合は２番目のリップシンクのアイコンをクリックして
 >リップシンクも開始します。
 
+><font color="Blue">3teneSTUDIO の開始操作は[こちら](#TrackingWindow.md)になります。</font>
+
 ![画像](image/webcamera_settings_3.png "")
 
 
