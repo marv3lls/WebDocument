@@ -55,6 +55,11 @@
 ><font color="Red">※1 RealSense だけでなく Nuitrack (有料ソフトウェア)の購入が必要です。</font>
 ><font color="Blue">※2 使用には広い空間(2メートル×3メートル程度)が必要かと思います。</font>
 
+>#### 動作確認済みの機器
+
+>Intel RealSence D415
+
+
 ### iPhoneX 以降（スマートフォン - 3teneFREE は非対応）
 >専用アプリにて iPhoneX 以降に搭載された TrueDepth カメラを使用した顔認識を行い、
 >その認識結果を WiFi で PC (3tene) に送信する事により顔認識を行います。
