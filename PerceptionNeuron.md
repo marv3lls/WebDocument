@@ -6,6 +6,8 @@
 >PerceptionNeuron を使い終わったら必ずセンサーを固定ベルトから取り外して
 >専用の金属ケースにしまってください！！！
 
+>詳しくは[注意事項 | Perception Neuron by Noitom](https://neuronmocap.com/node/1589)を参照してください。
+
 
 ### 必要機材について
 
