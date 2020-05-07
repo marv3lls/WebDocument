@@ -59,3 +59,15 @@
 
 ![画像](image/VwcForOBS.png "")
 
+
+### UnityCapure のソフトウェア相性について
+
+>UnityCapure の仮想ウェブカメラは OBS にて動作確認をしていますが、
+>一部のウェブカメラ対応ソフトではウェブカメラとして認識せず、
+>「Unity Video Capture」が表示されないのを確認しています。
+>※認識しないのは UnityCapure もしくはウェブカメラ対応ソフトの問題となります。
+
+>また、UnityCapure に対応している別のソフトウェアと同時使用すると
+>UnityCapure の出力がチラつくのを確認しています。（VDRAW 等）
+
+
