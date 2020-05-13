@@ -6,6 +6,7 @@
 - [Mac版の制限](#mac.md)
 - [使い方](#function.md)
 - [VRMについて](#vrm.md)
+- [Live2Dについて](#AboutLive2D.md)
 - [関連動画](#movie.md)
 - [FAQ](#faq.md)
 - [トラブルシューティング](#troubleshooting.md)

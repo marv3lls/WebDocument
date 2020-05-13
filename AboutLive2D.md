@@ -1,10 +1,11 @@
 ## Live2Dについて
 
->3tenePro+Live2D では Live2D のモデルデータに対応しています。
+>3tenePro+Live2D 版のみ、Live2D Cubism で作成されたモデルデータを読み込めます。
 
 ### 対応機材の制限
 
->Live2D の制御はフェイストラッキング(ウェブカメラ、iPhoneX)と LeapMotion のみです。
+>Live2D モデル操作はフェイストラッキング(ウェブカメラ、iPhoneX以降)と
+>腕の操作 (LeapMotion) に対応しています。
 >VR や Nuitrack など、全身制御には対応していません。
 
 

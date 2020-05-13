@@ -133,12 +133,6 @@
 >[仮想ウェブカメラについて](#VirtualWebCamera.md)
 
 
-### Live2D の対応
-
->Live2D 版のみ、Live2D Cubism で作成されたモデルデータを読み込めます。
->[Live2Dについて](#AboutLive2D.md)
-
-
 ### モーション(Live2D)
 
 >モーションファイル等でLiveアバターを動かす機能です。
