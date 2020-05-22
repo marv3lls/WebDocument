@@ -9,7 +9,7 @@
 ### v1.10.28 2020/05/22
 - 機能追加・調整
   - 読み込んだオブジェクトを細かい調整機能を追加
-  - Mac版3tene 「Mac OS Catalina」に対応
+  - Mac版3tene 「macOS Catalina」に対応
   - VRMファイルを追加（ふたは）
   - 【PRO】NDI に対応（アルファ非対応）
   - 【PRO】iPhoneによるフェイストラッキングを調整
