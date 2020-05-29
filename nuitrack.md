@@ -1,11 +1,11 @@
 ## Nuitrack について
 
->骨格認識によって全身を操作します。
+>深度カメラの骨格認識によって全身を操作します。
 
 ### 注意事項
 
 >・黒い衣服を着ていると認識率が低下します。
->・フェイストラッキングも Nuitrack を使用している場合に
+>・Nuitrack のフェイストラッキングも同時に使用している場合に
 >　全身を認識する距離まで離れると顔が認識できなくなる可能性が高いです。
 
 ### RealSenseの設定
@@ -41,15 +41,13 @@
 >>システム環境変数 – 新規 を開き、
 >>変数名：NUITRACK_HOME
 >>変数値：nuitrack-win64/nuitrackのパス
->>※デフォルトの場合は下記のパス
+>>※標準インスト－ルした場合は下記のパスを入力してください。
 >>C:\Program Files\Nuitrack\nuitrack\nuitrack
->>上記を入力し登録
 
 >>システム環境変数 – Path（変数名）を選択 – 編集 – 新規 を開き
 >>nuitrack-win64/nuitrack/binのパス
->>デフォルトの場合は下記のパス
+>>※標準インスト－ルした場合は下記のパスを入力して追加してください。
 >>C:\Program Files\Nuitrack\nuitrack\nuitrack\bin
->>上記を入力し追加
 
 >4. アクティベーション
 >RealSense USB 3.0以上で接続する
@@ -60,6 +58,16 @@
 >（Trial版の場合 Activation Key は "license"から始まる文字列になります。）
 >アクティベーションに成功すると下部に「Activation complete!」と表示される。
 
+### Nuitrack の動作確認
+
+>Nuitrack をインストールしたフォルダにあるサンプルプログラムで動作を確認してください。
+><font color="Red">サンプルプログラムと 3tene を同時に起動すると競合してしまう</font>ので
+>正常に動作する事が出来たら必ず<font color="Blue">サンプルプログラムを終了した後に 3tene を起動します。</font>
+
+>正常に動作しない場合は Nuitrack に関係するソフトウェアを全て終了した後に
+>RealSence の USB 端子を抜き差しすると改善する場合があります。
+
+
 ### Nuitrackによるフェイストラッキングの設定
 
 >Nuitrackによるフェイストラッキングをご利用の際はお手数をお掛け致しますが、下記の手順を行ってください。
@@ -67,5 +75,18 @@
 >Nuitrackのデフォルトの設定では、Nuitrackのフェイストラッキングはオフになっています。
 >nuitrack\data\nuitrack.config
 >上記ファイルを開き、「Faces.ToUse」と「DepthProvider.Depth2ColorRegistration」をtrueへ変更してください。
+
+
+### Nuitrack が正常に動作しない場合
+
+>#### 3tene の Nuitrack プレビューが真っ白になる
+
+>1. Nuitrack アクティベーションが完了していない可能性があります。
+>トライアルコードもしくは製品コードでアクティベーションが完了後に
+>再度、3tene を起動して試してみてください。
+
+>2. 他の Nuitrack を使用するソフトと競合している可能性があります。
+>他のソフトを終了後、 RealSence の USB 接続を外して、再度接続後に
+>3tene を起動してみてください。
 
 
