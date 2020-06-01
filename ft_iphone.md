@@ -62,8 +62,18 @@
 
 ![画像](image/iphonex_ft_howto_1.png "")
 
->アダプタが複数ある場合は１つづつ試してみてください。
+>アダプタが複数ある場合は１つづつ入力して試すか、下記のアプリを試してみてください。
 
+>#### 3tene のIPアドレスが複数ある場合の確認方法
+
+>iPhone にネットワーク検索アプリをインストールします。
+><a href="https://itunes.apple.com/jp/app/inet-network-scanner/id340793353?mt=8" target="_blank">iNet – Network scanner</a>
+><a href="https://itunes.apple.com/jp/app/fing-network-scanner/id430921107?mt=8" target="_blank">Fing</a>
+
+>アプリでネットワーク検索を行い、3tene 側で表示されているIPアドレスと
+>同一のIPアドレスが検索結果にあれば、その値を 3teneFT に入力します。
+
+>みつからない場合は iPhone の接続されているネットワークグループに問題があります。
 
 ### 3teneFT側でIPアドレスの入力
 
