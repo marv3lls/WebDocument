@@ -68,9 +68,15 @@
 >[LeapMotionについて](#leapmotion.md)
 
 
+### Azure Kinect
+
+>深度カメラによってボディトラッキングを行います。
+>[Azure Kinect について](#AzureKinect.md)
+
+
 ### RealSense + Nuitrack
 
->骨格認識での全身を動かします。
+>深度カメラで骨格を認識し、全身を動かします。
 >[Nuitrack について](#nuitrack.md)
 
 
