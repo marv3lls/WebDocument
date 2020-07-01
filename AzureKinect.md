@@ -12,10 +12,14 @@
 >・ＧＰＵ：NVIDIA GeForce GTX 1070 以上
 >・接続：USB 3.x 必須。（USB 2.0 では Kinect を認識しません。）
 
-><font color="Red">NVIDIA 製 GeForce シリーズが必須となります。</font>
+>Azure Kinect は <font color="Red">CUDA を使用するので NVIDIA 製 GeForce シリーズが必須となります。</font>
 >Intel の ＣＰＵ内蔵グラフィック、および AMD 製の Radeon シリーズには対応していません。
 
-><a href="https://docs.microsoft.com/ja-jp/azure/kinect-dk/system-requirements" target="_blank">Azure Kinect 公式（英語）</a>
+><a href="https://docs.microsoft.com/ja-jp/azure/kinect-dk/system-requirements" target="_blank">公式：Azure Kinect 要求機能（英語）</a>
+
+>「Visual Studio 2015 の Visual C++ 再頒布可能パッケージ」のインストールが別途必要です。
+><a href="https://docs.microsoft.com/ja-jp/azure/kinect-dk/body-sdk-setup" target="_blank">公式：開発者向けクイックスタート</a>
+
 
 ### 注意事項
 
@@ -30,6 +34,12 @@
 
 >3teneKinect が Azure Kinect の制御を行い、
 >その認識結果を 3tene 側で受け取り、アバターに動きを反映させます。
+
+>3teneKinect は AzureKinect DK の Sensor-SDK 1.3.0、 BodyTracking-SDK 1.0.1 を使用して
+>作成されています。
+>認識する部位は頭、腕、手、腰、足となりますが指は親指と人差し指のみとなります。
+>指の認識ではブレが発生しやすい為、3teneKinect では指の制御機能を用意しています。
+
 
 ><font color="Red">3teneKinect</font> の<a href="https://3tene.com/pro/" target="_blank">ダウンロード</a>
 
