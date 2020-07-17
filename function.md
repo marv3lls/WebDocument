@@ -31,18 +31,13 @@
 
 >iPhoneX 以降と連携して高精度フェイストラッキングを行います。
 >[iPhoneXによるフェイストラッキングについて](#ft_iphone.md)
+>>[iPhoneX フェイストラッキングの表情自動変更(表情認識)](#ft_iphone_expression.md)
 
 
 ### リップシンク
 
 >アバターの口を動かす機能です。
 >[リップシンクについて](#lipsync.md)
-
-
-### トラッキング開始ウインドウ (3teneSTUDIOのみ)
-
->複数のアバターのトラッキング開始、停止を操作するウインドウです。
->[トラッキング開始ウインドウについて](#TrackingWindow.md)
 
 
 ### 表情
@@ -90,6 +85,12 @@
 
 >センサーを付けたボディストラップ（固定ベルト）を装着して全身を動かします。
 >[Perception Neuronについて](#PerceptionNeuron.md)
+
+
+### Hi5 VR GLOVE
+
+>センサーを付けたグローブを装着して両手を動かします。
+>[Hi5 VR GLOVEについて](#Hi5VrGlove.md)
 
 
 ### MIDI
