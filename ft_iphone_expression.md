@@ -57,4 +57,30 @@
 
 <img src="image/iphonex_ft_expression_03.png" width="600px">
 
+### 独自BlendShape追加手順
+>1. Unity で読み込んだモデルの BlendShape の設定画面で「Add BlendShapeClip」をクリックすると、
+>新しく BlendShape を追加することが出来ます。
+
+><img src="image/iphonex_ft_expression_04.png" width="500px">
+
+>2. 追加する際に BlendShape 名を該当の名前で作成します。
+>※「Joy_ClosedMouth」「Angry_ClosedMouth」「Sorrow_ClosedMouth」
+
+><img src="image/iphonex_ft_expression_05.png" width="600px">
+
+>3. 編集する BlendShape 名を選択し、シェイプキーの値を設定します。
+>この時、口の形を大きく変形させると BlendShape「A」「I」「U」「E」「O」と競合し、
+>口の形が崩れる場合がございます。（3tene内のリップシンク使用時）
+
+><img src="image/iphonex_ft_expression_06.png" width="500px">
+
+>4. BlendShape の設定が完了したら、VRMを出力し、3tene で読み込みます。
+
+>5. 表情の変更で「Joy_ClosedMouth」「Angry_ClosedMouth」「Sorrow_ClosedMouth」
+>の動きを確認してください。正しく設定されている場合は、設定した表情へ変化いたします。
+
+><img src="image/iphonex_ft_expression_07.png" width="600px">
+
+>6. 表情の設定に問題ない場合は自動表情変更で、ご自身で設定した表情に変化させることが出来ます。
+>※自動表情変更の手順は本ページ上記をご確認ください。
 
