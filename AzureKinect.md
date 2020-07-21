@@ -46,11 +46,6 @@
 >PC 1台で構成する場合は下記になります。
 >![画像](image/kinect_howto_1.png "")
 
->Azure Kinect 用の高性能 PC を別途用意する事で負荷分散も行えます。
-><font color="Red">※β版で分散機能は提供されません。</font>
-><font color="Red">※3teneKinect がファイアウォールにブロックされないようにセキュリティの変更が必要です。</font>
->![画像](image/kinect_howto_2.png "")
-
 
 ### Azure Kinect の操作手順
 
@@ -63,11 +58,13 @@
 >5. 3tene のトラッキングを開始します。
 >![画像](image/AzureKinect_3.png "")
 
+>必ず 3teneKinect の制御を開始した後に 3tene のトラッキング開始を行ってください。
+
 
 ### 3teneKinect の設定項目
 
 
->![画像](image/kinect_setting.png "")
+>![画像](image/AzureKinect_4.png "")
 
 >#### 演算ユニット
 >GPU ： 認識処理にグラフィックボード（GPU）を使用します。
@@ -101,4 +98,32 @@
 >#### 親指を制御する
 >親指に認識結果を反映するかを指定します。
 >親指のブレが激しい場合にはオフにしてください。（親指は動かなくなります。）
+
+
+### PCを2台以上の構成で扱う
+
+>3tene(PRO, STUDIO) と 3teneKinect を別々のPCで動かして利用する事が可能です。
+>Azure Kinect 用の高性能 PC を別途用意する事で負荷分散も行えます。
+><font color="Red">※β版で分散機能は提供されません。</font>
+
+
+>![画像](image/kinect_howto_2.png "")
+
+>3teneKinect の IP アドレスを確認して 3tene 側の AzureKinect の IPアドレスに設定します。
+>※１台構成に戻す場合は IPアドレスを 127.0.0.1 に設定してください。
+
+>![画像](image/AzureKinect_5.png "")
+
+><font color="Red">※セキュリティソフトのファイアウォールによって
+>　3teneKinect の通信がブロックされる場合があります。
+>　ブロックされると接続ができないのでセキュリティの設定変更が必要です。</font>
+
+>ファイアウォールを完全無効にして接続を確認する事も可能ですが、
+><font color="Red">セキュリティ上、大きな問題となる</font>為、接続確認が取れた場合は
+>速やかにファイアウォールの設定を戻してください。
+><font color="Blue">通常使用ではセキュリティソフトに「3teneKinect をブロックしない設定」を追加してください。</font>
+
+>後は１台構成の場合と同じ手順で 3teneKinect の制御を開始した後に、
+>3tene のトラッキングを開始します。
+
 
