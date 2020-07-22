@@ -36,26 +36,27 @@
 
 ### 自動表情変更と口の動きの競合について
 
->自動表情変更が有効な状態で口を動かすと表情の口と
->状態が競合して正常な口の形状にならない場合があります。
+>自動表情変更が有効な状態で口を動かすと
+><font color="Red">表情の口設定と競合して正常な口の形状にならない</font>場合があります。
 >（VRM モデルの作り方によって影響度が違います。）
 
 
->VRoidStudio で作成したモデルに対しては対策を行っているので
->競合は起きませんが、モデリングソフトで独自に作成したモデルは
->この問題の対象となります。
+><font color="Blue">VRoidStudio で作成したモデルに対しては対策を行っている</font>ので競合は起きませんが、
+>モデリングソフトで独自に作成した VRM モデルはこの問題の対象となります。
 
-### 独自モデルの回避、自動表情変更で使用する表情のカスタム
 
+### 独自の VRM モデルで競合を回避する方法
+
+>自動表情変更で使用する表情のカスタム設定をVRMに追加します。
 >Unity で VRM に下記の名前の BlendShape を追加する事によって競合を回避可能となります。
-また、自動表情変更で使用する表情をカスタムしたい場合も下記の名前で BlendShape を作成してください。
-(作成した BlendShape が優先となります。)
+>また、自動表情変更で使用する表情をカスタムしたい場合も下記の名前で BlendShape を作成してください。
+>(作成した BlendShape が優先となります。)
 
 >BlendShape名：<font color="Blue">Joy_ClosedMouth → 口だけを標準にした楽しい</font>
 >BlendShape名：<font color="Blue">Angry_ClosedMouth → 口だけを標準にした怒り</font>
 >BlendShape名：<font color="Blue">Sorrow_ClosedMouth → 口だけを標準にした悲しい</font>
 
-<img src="image/iphonex_ft_expression_03.png" width="600px">
+><img src="image/iphonex_ft_expression_03.png" width="600px">
 
 ### 独自BlendShape追加手順
 >1. Unity で読み込んだモデルの BlendShape の設定画面で「Add BlendShapeClip」をクリックすると、
@@ -70,17 +71,17 @@
 
 >3. 編集する BlendShape 名を選択し、シェイプキーの値を設定します。
 >この時、口の形を大きく変形させると BlendShape「A」「I」「U」「E」「O」と競合し、
->口の形が崩れる場合がございます。（3tene内のリップシンク使用時）
+>口の形が崩れる場合があります。（3tene内のリップシンク使用時）
 
 ><img src="image/iphonex_ft_expression_06.png" width="500px">
 
 >4. BlendShape の設定が完了したら、VRMを出力し、3tene で読み込みます。
 
 >5. 表情の変更で「Joy_ClosedMouth」「Angry_ClosedMouth」「Sorrow_ClosedMouth」
->の動きを確認してください。正しく設定されている場合は、設定した表情へ変化いたします。
+>の動きを確認してください。正しく設定されている場合は、設定した表情へ変化します。
 
 ><img src="image/iphonex_ft_expression_07.png" width="600px">
 
->6. 表情の設定に問題ない場合は自動表情変更で、ご自身で設定した表情に変化させることが出来ます。
+>6. 表情の設定に問題ない場合は自動表情変更で、設定に追加した表情に変化させることが出来ます。
 >※自動表情変更の手順は本ページ上記をご確認ください。
 
