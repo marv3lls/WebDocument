@@ -61,16 +61,18 @@
 
 
 ### iPhoneX 以降（スマートフォン - 3teneFREE は非対応）
->専用アプリにて iPhoneX 以降に搭載された TrueDepth カメラを使用した顔認識を行い、
+>専用アプリにて iPhoneX 以降(<font color="Blue">※</font>)に搭載された TrueDepth カメラを使用した顔認識を行い、
 >その認識結果を WiFi で PC (3tene) に送信する事により顔認識を行います。
 >ウェブカメラ使用時と同等の機能があり、ウェブカメラよりも高精度で
 >目の動きを再現するアイトラッキングが使用可能になります。
 >首掛け式の自撮り棒を使う事で両手が空くので他の操作が可能になります。
 
+><font color="Blue">※第二世代 iPhone SE (2020) は TrueDepth を搭載していない為、対象外となります。</font>
+
 >#### 動作確認済みの機器
->iPhoneX (A11 Bionic プロセッサ)
->iPhoneXR (A12 Bionic プロセッサ)
->iPhone11 (A13 Bionic プロセッサ)
+>iPhoneX (A11 Bionic プロセッサ + TrueDepth カメラ)
+>iPhoneXR (A12 Bionic プロセッサ + TrueDepth カメラ)
+>iPhone11 (A13 Bionic プロセッサ + TrueDepth カメラ)
 
 
 ### HTC Vive (VR機器 - 3teneFREE は非対応)
