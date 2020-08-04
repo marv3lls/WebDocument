@@ -70,6 +70,8 @@
 >#### 動作確認済みの機器
 >iPhoneX (A11 Bionic プロセッサ)
 >iPhoneXR (A12 Bionic プロセッサ)
+>iPhone11 (A13 Bionic プロセッサ)
+
 
 ### HTC Vive (VR機器 - 3teneFREE は非対応)
 >ゴーグル（頭）、コントローラー（手）×２を使って、
