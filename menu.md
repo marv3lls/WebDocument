@@ -5,7 +5,7 @@
 - [無料版と有料版の違い](#FreeOrPro.md)
 - [Mac版の制限](#mac.md)
 - [使い方](#function.md)
-- [VRMについて](#vrm.md)
+- [VRMの作成について](#vrm.md)
 - [Live2Dについて](#AboutLive2D.md)
 - [関連動画](#movie.md)
 - [FAQ](#faq.md)
