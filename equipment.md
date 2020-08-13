@@ -59,6 +59,9 @@
 
 >Intel RealSence D415
 
+><font color="Blue">※D435 では動作確認をしていません。</font>
+><font color="Blue">※D455 では動作確認をしていません。</font>
+
 
 ### iPhoneX 以降（スマートフォン - 3teneFREE は非対応）
 >専用アプリにて iPhoneX 以降(<font color="Blue">※</font>)に搭載された TrueDepth カメラを使用した顔認識を行い、
