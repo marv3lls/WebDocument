@@ -35,6 +35,7 @@
 >VRM を作成する場合の注意点を記載します。
 
 >#### VRoidStudio で作成した VRM について
+
 >VRoidStudio で作成した VRM を 3tene で読み込むのは問題ありませんが、
 >VRoidStudio で作成した VRM を unity にインポートすると
 >目のボーンの設定値が変化してしまい、目の移動範囲が狭くなります。
@@ -42,15 +43,22 @@
 
 >また一部の服装で描画崩れが発生する場合は 3tene の
 >設定「システム」タブでクオリティを「Very High」以上に変更してみてください。
+>![画像](image/quality_vroid.png "クオリティ")
 
 
 >#### First Person について
+
 >3tene では VR に対応している為、VRM は First Person に対応している必要があります。
 >対応していないと目、まぶた、口が２重に表示されるといった現象が発生します。
 
 >VRM を First Person に対応させるか、該当する顔の部位に
 >「Third Person Only」に設定変更を行って First Person を無効にしてください。
 ><font color="Blue">※First Person を無効にすると VR 使用時の描画に問題が発生します。</font>
+
+>#### iPhoneX フェイストラッキングの表情自動変更(表情認識)
+
+>[こちら](#glossary.md)を参考に独自の表情を作成すると
+>口の動きの競合を防ぐことが可能になります。
 
 
 ### VRM の仕様は？
