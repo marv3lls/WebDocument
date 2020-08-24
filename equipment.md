@@ -49,6 +49,8 @@
 >モデル全体を表示させる用途に使用するには難しいかも知れません。
 >顔認識機能は無いのでウェブカメラ等と組み合わせて使います。
 
+>デスクトップモード、ヘッドマウントモードに対応しています。
+
 ### RealSense + Nuitrack (USB接続の専用カメラ - 3teneFREE は非対応)
 >深度カメラで体全体を認識し、骨格トラッキングによりモデルに同じ状態を再現します。
 >全身を写す為にカメラから離れると顔認識が難しくなる場合があります。
@@ -60,6 +62,7 @@
 >Intel RealSence D415
 
 ><font color="Blue">※D435 では動作確認をしていません。</font>
+><font color="Blue">※D435i では動作確認をしていません。</font>
 ><font color="Blue">※D455 では動作確認をしていません。</font>
 
 
@@ -76,6 +79,16 @@
 >iPhoneX (A11 Bionic プロセッサ + TrueDepth カメラ)
 >iPhoneXR (A12 Bionic プロセッサ + TrueDepth カメラ)
 >iPhone11 (A13 Bionic プロセッサ + TrueDepth カメラ)
+
+
+### Azure Kinect (USB 3接続の専用カメラ - 3teneFREE は非対応)
+>深度カメラで体全体を認識し、ボディトラッキングを実現します。
+>広さを優先した広角モードと奥行きを優先した狭角など、
+>用途に合わせてモードが変更できます。
+>ただし、NVIDIA 製のグラフィックボード(GPU) GeForce GTX 1070 相当を
+>必要とします。
+
+><font color="Red">※Intel および AMD 製のグラフィックボード(GPU) は非対応です。</font>
 
 
 ### HTC Vive (VR機器 - 3teneFREE は非対応)
