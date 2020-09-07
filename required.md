@@ -16,6 +16,7 @@
 |OS|Windows 7 SP1 64bit 以降|
 
 >※Perception Neuron を使う場合はメモリは 8GB 以上を推奨します。
+>※Azure Kinect を使う場合は GeForce 1070 GTX （もしくは同等以上）が必須となります。
 >※DirectX 11 以降に対応したグラフィック機能が必要になります。
 
 ### 最低動作環境
