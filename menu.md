@@ -2,7 +2,7 @@
 
 - [動作環境](#required.md)
 - [対応機器](#equipment.md)
-- [無料版と有料版の違い](#FreeOrPro.md)
+- [エディションの違い](#edition.md)
 - [Mac版の制限](#mac.md)
 - [使い方](#function.md)
 - [VRMの作成について](#vrm.md)
