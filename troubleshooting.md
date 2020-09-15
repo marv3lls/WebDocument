@@ -169,11 +169,7 @@
 >メーカーから専用ドライバが配布されている場合はそちらを試してみてください。
 >ドライバの変更は自己責任となりますのでご注意ください。
 
->なお、下記組み合わせで３台の同時使用が出来るのを確認しています。
-
->BUFFALO BSW20KM05 (デバイス名：PC Camara → 標準ドライバ)
->Logicool HD Webcam C270 (デバイス名：Logicool HD Webcam C270 → 専用ドライバ)
->Logicool HD Webcam C270 (デバイス名：Logicool HD Webcam C270 → 専用ドライバ)
+><font color="Red">ウェブカメラの同時使用については[こちら](#DeviceWebCamera.md)を参照してください。</font>
 
 
 ### フェイストラッキングを使うとモデルの頭が回転します。
