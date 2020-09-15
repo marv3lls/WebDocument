@@ -2,6 +2,8 @@
 
 >専用センサーで腕、手、指を動かします。
 
+><font color="Red">VR や AzureKinect 等、他の体を操作する機器との併用はできません。</font>
+
 ### LeapMotion ソフトウェアのインストール
 
 ><a href="https://developer.leapmotion.com/vr-setup" target="_blank">公式サイト</a>より Leap_Motion_Setup_4.0.0.exe をダウンロードします。
