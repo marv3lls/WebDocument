@@ -4,15 +4,15 @@
 >有料版は商用利用する事も可能です。
 >エディションは大きく分けてFREE、PRO、PRO＋Live2D、STUDIO があります。
 
-|エディション名|対象|内容|
+|エディション名|対象、購入|内容|
 |---|---|:---|
-|FREE|個人|無料。一部機能を除いて使用可能。商用不可。<BR>法人は3teneの動作確認の利用のみ可。|
-|PRO|個人|買い切り。複数人対応(２人)、iPhoneX 等の機器に対応。|
-|PRO+Live2D|個人|買い切り。PROの機能に加えてLive2Dに対応。|
-|STUDIO|個人|買い切り。複数人対応(３人)、Perception Neuronに対応|
-|PRO|法人|年契約。複数人対応(２人)、iPhoneX 等の機器に対応。|
-|PRO+Live2D|法人|年契約。PROの機能に加えてLive2Dに対応。|
-|STUDIO|法人|年契約。複数人対応(３人)、Perception Neuronに対応|
+|FREE|個人、無料|一部機能を除いて使用可能。商用不可。<BR>法人は3teneの動作確認の利用のみ可。|
+|PRO|個人、買い切り|複数人対応(２人)、iPhoneX 等の機器に対応。|
+|PRO+Live2D|個人、買い切り|PROの機能に加えてLive2Dに対応。|
+|STUDIO|個人、買い切り|Perception Neuronに対応|
+|PRO|法人、年契約|複数人対応(２人)、iPhoneX 等の機器に対応。|
+|PRO+Live2D|法人、年契約|PROの機能に加えてLive2Dに対応。|
+|STUDIO|法人、年契約|複数人対応(３人)、Perception Neuronに対応|
 
 
 >PRO版以上で追加される機能を記載します。
