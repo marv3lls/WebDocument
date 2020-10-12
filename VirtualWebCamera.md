@@ -1,47 +1,58 @@
 ## 仮想ウェブカメラについて
 
-### UnityCapure を使います
+>3tene の画面を仮想ウェブカメラに出力します。
+>メニューやウェブカメラプレビュー等の2D画像は出力されません。
 
->この機能を利用するには、別途 UnityCapure のインストールが必要です。
+><font color="Red">※Steam 版はインストーラが無いので仮想ウェブカメラが自動登録されません。</font>
+>　下記の<font color="Blue">「3tene Screen Capture」の再登録の仕方</font>を参照してください。
+><font color="Red">※Mac版は対応していません。</font>
 
->UnityCapure を使用して 3tene の映像を仮想ウェブカメラに出力する事により
->ウェブカメラ対応の録画、配信ソフト（OBSなど）でキャプチャする事が可能になります。
->※ Mac版は対応していません。
+### 仮想ウェブカメラの特徴
 
->また、仮想ウェブカメラを経由した出力ではメニューやウインドウが
->録画対象とならないのでアバターと背景のみが録画可能になります。
+>ウェブカメラ対応のソフトウェアに 3tene の画面を表示させる事が可能になります。
+>OBS (配信ソフト)や、ZOOM（ミーティングソフト）等、いろいろな用途に使えます。
 
+><font color="Blue">ウェブカメラ一覧で「3tene Screen Capture」を選択してください。</font>
 
-### UnityCapure の入手
+>また、仮想ウェブカメラに出力される画像は 3tene 画面内にあるメニューやウインドウが
+>対象とならないのでアバターと背景のみが表示されます。
 
->下記サイトを開きます。
+![画像](image/VwcForOBS.png "")
 
->schellingb/UnityCapture
->https://github.com/schellingb/UnityCapture
+### 注意事項
 
->ページ内の「Clone or download」をクリックし、「DownLoad ZIP」を選択すると
->ZIPファイルのダウンロードが始まります。
+>3tene Ver 2.0.6 以降は UnityCapture を使用しなくなりました。
+>旧バージョンの[UnityCapture設定](#UnityCapture.md)
 
->ダウンロード完了後、ZIPファイルを任意の場所に解凍します。
->解凍したファイルは Windows の設定（レジストリ）に登録しますので
->登録作業を行う前に UnityCapture のフォルダを問題のない場所に移動してください。
->※登録後も UnityCapture のフォルダは削除しないで下さい。
+>UnityCapture がインストール済みの場合は Uninstall.bat を実行後、
+>ファイルを削除しても問題ありません。
 
-### UnityCapure の登録作業
+>3tene インストール後に 3tene のフォルダを移動すると
+><font color="Red">「3tene Screen Capture」が動作しなくなります。</font>
+>この問題を解決するには、フォルダを元に戻すか、
+>手動による<font color="Blue">「3tene Screen Capture」の再登録</font>が必要になります。
 
->解凍した「UnityCapture-master」フォルダを問題のない場所に移動後、
->フォルダ内の「Install」を開きます。
+### 「3tene Screen Capture」の再登録の仕方
 
->「install.bat」ファイルを右クリックして、「管理者として実行」を実行します。
+>3tene のインストールされたフォルダの中に
+>「3teneScreenCapture」フォルダがあるので開きます。
+><font color="Blue">C:\Program Files\PLUSPLUS\3tene〇〇〇</font>
+
+><font color="Blue">Steam 版のデフォルトのインストールフォルダは下記になります。
+>C:\Program Files (x86)\Steam\SteamApps\Common\3tene\3tene</font>
+>※Steam のインストール方法や設定によっては異なる場合があります。
+
+>フォルダの中にある「install.bat」を右クリックして、「管理者として実行」を実行します。
 ><font color="Blue">※Windows の保護が表示された場合は「詳細情報」をクリック後、
 >「実行」を選択してください。</font>
 
 >「デバイスの変更の許可」が表示されるので「はい」を選択してください。
->UnityCaptureFilter32bit.dll および UnityCaptureFilter64bit.dll の
+
+![画像](image/Vwc_Agreement.png "")
+
 >登録成功が表示されエラーが出なければ登録完了です。
 
->3tene の画面出力が仮想カメラに出力されるようになります。
->ウェブカメラ対応ソフトウェアで 3tene の画面を選択可能になります。
+>3tene の画面が「3tene Screen Capture」に出力されるようになります。
 
 
 ### 仮想ウェブカメラを OBS で使用する
@@ -54,20 +65,17 @@
 >インストールを行い、OBS を起動します。
 >「ソース」の追加で「映像キャプチャデバイス」を選択します。
 >新規作成で任意の名前を入力し「OK」をクリックします。
->デバイスの選択欄で「Unity Video Capture」を選択し、「OK」を
+>デバイスの選択欄で「3tene Screen Capture」を選択し、「OK」を
 >クリックすると 3tene の画面が表示され録画が可能になります。
 
-![画像](image/VwcForOBS.png "")
+![画像](image/Vwc_Select.png "")
 
 
-### UnityCapure のソフトウェア相性について
+### 「3tene Screen Capture」のソフトウェア相性について
 
->UnityCapure の仮想ウェブカメラは OBS にて動作確認をしていますが、
+>仮想ウェブカメラは OBS と ZOOM にて動作確認をしていますが、
 >一部のウェブカメラ対応ソフトではウェブカメラとして認識せず、
->「Unity Video Capture」が表示されないのを確認しています。
->※認識しないのは UnityCapure もしくはウェブカメラ対応ソフトの問題となります。
-
->また、UnityCapure に対応している別のソフトウェアと同時使用すると
->UnityCapure の出力がチラつくのを確認しています。（VDRAW 等）
+>「3tene Screen Capture」が表示されない可能性があります。
+>※認識しない場合はウェブカメラ対応ソフトに問い合わせてください。
 
 
