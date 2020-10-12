@@ -1,52 +1,50 @@
 ## Live2Dについて
 
->3tenePro+Live2D 版のみ、Live2D Cubism で作成されたモデルデータを読み込めます。
+>Only the 3tenePro Live2D version can read model data created by Live2D Cubism.
 
-### 対応機材の制限
+### Restrictions on compatible equipment
+> Live2D model operation supports face tracking (webcam, iPhone X or later) and
+> arm operation (Leap Motion).
+> It does not support whole body control such as VR and Nuitrack.
 
->Live2D モデル操作はフェイストラッキング(ウェブカメラ、iPhoneX以降)と
->腕の操作 (LeapMotion) に対応しています。
->VR や Nuitrack など、全身制御には対応していません。
+### Live2D parameter ID
 
+> The parameter ID used in 3tenePro Live2D is as follows.
 
-### Live2D のパラメータID
+#### Breathe
 
->3tenePro+Live2D で使用しているパラメータ ID は下記になります。
-
-#### 呼吸
-
-|名前|ID（Cubism3）|ID（Cubism2）|最小|基準|最大|説明|
+| Name | ID (Cubism3) | ID (Cubism2) | Minimum | Criteria | Maximum | Description |
 |---|:---|:---|:---|:---|:---|:---|
-|呼吸|ParamBreath|PARAM_BREATH|0|0|1|+で呼吸の動き|
+| Breathing | ParamBreath | PARAM_BREATH | 0 | 0 | 1 |
 
-#### フェイストラッキング
+#### Face tracking
 
-|名前|ID（Cubism3）|ID（Cubism2）|最小|基準|最大|説明|
+| Name | ID (Cubism3) | ID (Cubism2) | Minimum | Criteria | Maximum | Description |
 |---|:---|:---|:---|:---|:---|:---|
-|角度X|ParamAngleX|PARAM_ANGLE_X|-30|0|30|+で画面の右を向く|
-|角度Y|ParamAngleY|PARAM_ANGLE_Y|-30|0|30|+で画面の上を向く|
-|角度Z|ParamAngleZ|PARAM_ANGLE_Z|-30|0|30|+で画面の右を向く|
-|左目 開閉|ParamEyeLOpen|PARAM_EYE_L_OPEN|0|1|1|+で目を開ける|
-|右目 開閉|ParamEyeROpen|PARAM_EYE_R_OPEN|0|1|1|+で目を開ける|
-|目玉 X|ParamEyeBallX|PARAM_EYE_BALL_X|-1|0|1|+で右を見る|
-|目玉 Y|ParamEyeBallY|PARAM_EYE_BALL_Y|-1|0|1|+で上を見る|
-|左眉 上下|ParamBrowLY|PARAM_BROW_L_Y|-1|0|1|+で眉を上げる|
-|右眉 上下|ParamBrowRY|PARAM_BROW_R_Y|-1|0|1|+で眉を上げる|
-|口 開閉|ParamMouthOpenY|PARAM_MOUTH_OPEN_Y|0|0|1|+で口を開く|
-|体の回転 X|ParamBodyAngleX|PARAM_BODY_ANGLE_X|-10|0|10|+で画面の右を向く|
-|体の回転 Z|ParamBodyAngleZ|PARAM_BODY_ANGLE_Z|-10|0|10|+で画面の右に傾く|
+| Angle X | ParamAngleX | PARAM_ANGLE_X | -30 | 0 | 30 | to turn to the right of the screen |
+| Angle Y | ParamAngleY | PARAM_ANGLE_Y | -30 | 0 | 30 |
+| Angle Z | ParamAngleZ | PARAM_ANGLE_Z | -30 | 0 | 30 | to turn to the right of the screen |
+| Open / close left eye | ParamEyeLOpen | PARAM_EYE_L_OPEN | 0 | 1 | 1 |
+| Open and close the right eye | ParamEyeROpen | PARAM_EYE_R_OPEN | 0 | 1 | 1 |
+| Eyeball X | ParamEyeBallX | PARAM_EYE_BALL_X | -1 | 0 | 1 | Look to the right |
+| Eyeball Y | ParamEyeBallY | PARAM_EYE_BALL_Y | -1 | 0 | 1 |
+| Left eyebrow up and down | ParamBrowLY | PARAM_BROW_L_Y | -1 | 0 | 1 |
+| Right eyebrow up and down | ParamBrowRY | PARAM_BROW_R_Y | -1 | 0 | 1 |
+| Mouth opening and closing | ParamMouthOpenY | PARAM_MOUTH_OPEN_Y | 0 | 0 | 1 |
+| Rotate your body X | ParamBodyAngleX | PARAM_BODY_ANGLE_X | -10 | 0 | 10 | to turn to the right of the screen |
+| Rotate the body Z | ParamBodyAngleZ | PARAM_BODY_ANGLE_Z | -10 | 0 | 10 | tilt to the right of the screen |
 
-#### モーション、LeapMotion（3tene用パラメータ）
+#### Motion, Leap Motion (parameter for 3tene)
 
-|名前|ID（Cubism3）|ID（Cubism2）|最小|基準|最大|説明|
+|Name | ID (Cubism3) | ID (Cubism2) | Minimum | Criteria | Maximum | Description |
 |---|:---|:---|:---|:---|:---|:---|
-左腕 X|ParamArmLX|–|-30|0|30|+で左腕を閉じる|
-左腕 Y|ParamArmLY|–|-30|0|30|+で左腕を上げる|
-右腕 X|ParamArmRX|–|-30|0|30|+で右腕を閉じる|
-右腕 Y|ParamArmRY|–|-30|0|30|+で右腕を上げる|
+Close your left arm with X | ParamArmLX | – | -30 | 0 | 30 |
+Left arm Y | ParamArmLY | – | -30 | 0 | 30 | Raise your left arm |
+Close your right arm with X | ParamArmRX | – | -30 | 0 | 30 |
+Right arm Y | ParamArmRY | – | -30 | 0 | 30 | Raise your right arm |
 
 
-#### LeapMotion（3tene用パラメータがない場合）
+#### LeapMotion (without parameters for 3tene)
 
 |名前|ID（Cubism3）|ID（Cubism2）|最小|基準|最大|説明|
 |---|:---|:---|:---|:---|:---|:---|
@@ -56,71 +54,76 @@
 
 ### Live2D のモデルで腕を動かすには
 
->3tene で動かす為には専用パラメータをモデルに組み込む必要があります。
+>In order to work with 3tene, it is necessary to incorporate dedicated parameters into the model.
 
 <iframe src="https://www.youtube.com/embed/mBKb4ThyR44" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen" width="576" height="324" />
 
->動画内誤字について
->誤　ループパラメータ
->正　ループ用パラメータ
+>About typographical errors in the video
+>False loop parameters
+>Parameters for positive loop
 
->また、3tenePro+Live2Dに同梱されている「みとね」のLive2Dモデルは
->こちらの手順で作成したものになりますので、参考にしてみてください。
+>Also, the Live2D model of &quot;Mitone&quot; included in 3tenePro Live2D is
+>It will be created by this procedure, so please refer to it.
 
->ループ用パラメータを使用し、腕を回転させるイメージで作成しています。
->それぞれの方向にそれぞれのイラストを用意し、キーフレームを打つことで表示が切り替わる様に作成しています。
+>I created it with the image of rotating the arm using the parameters for the loop.
+>Each illustration is prepared in each direction, and it is created so that the display can be switched by hitting a key frame.
 
->前腕から手まで6つのイラストを作成します。
->ループ用パラメータを設定するために「右腕X」と「右腕Y」を作成。
+>Create 6 illustrations from the forearm to the hand.
+>Create &quot;right arm X&quot; and &quot;right arm Y&quot; to set the parameters for the loop.
 
->それぞれの腕の表示を切り替えるためにキーを下記のようにそれぞれを設定。
->右腕1
->パラメータ右腕Yに-30から-15、右腕Xに-30から0
->右腕2
->パラメータ右腕Yに-14から+14、右腕Xに-30から0
->右腕3
->パラメータ右腕Yに+15から+30、右腕Xに-30から0
->右腕4
->パラメータ右腕Yに+15から+30、右腕Xに+1から+30
->右腕5
->パラメータ右腕Yに-14から+14、右腕Xに+1から+30
->右腕6
->パラメータ右腕Yに-30から-15、右腕Xに+1から+30
+>Set the keys as shown below to switch the display of each arm.
+>Right arm 1
+>Parameters -30 to -15 for right arm Y, -30 to 0 for right arm X
+>Right arm 2
+>Parameters -14 to 14 for right arm Y, -30 to 0 for right arm X
+>Right arm 3
+>Parameters 15 to 30 for right arm Y, -30 to 0 for right arm X
+>Right arm 4
+>Parameters 15 to 30 for right arm Y, 1 to 30 for right arm X
+>Right arm 5
+>Parameters -14 to 14 for right arm Y, 1 to 30 for right arm X
+>Right arm 6
+>Parameters -30 to -15 for right arm Y, 1 to 30 for right arm X
 
->腕の切り替え部分で腕が表示されない、2本表示されるという現象が起こるので、不透明度の設定を行います。
-
->例：右腕1と右腕2
->右腕1
->右腕Yの表示範囲は-30から-15。-14へキーを打ち、不透明度を0。
->右腕２
->右腕2の表示範囲は-14から+14。-15と+15に不透明度0。
-
->例：右腕2と右腕5
->右腕2の右腕Y-14、右腕X+1.0の地点キーを打つ。
->+14の地点にも自動でキーが打たれるので、追加された位置のY-14、+14、X+1の地点に不透明度を0。
->右腕5にも同様の設定を行う。
-
->不透明度を設定していないキーが幾つか打たれているのでそれぞれ設定する。
->例：右腕１
->右腕Y-15、右腕X0は不透明度100
->右腕Y-14、右腕X0は不透明度0
->右腕Y-14、右腕X1も不透明度0
->右腕Y-15、右腕X1も不透明度0
-
->この設定を他の腕全てに設定する。
-
->右腕の回転
->ループ用パラメータの四隅にキーを設定。
-
->パラメータとIDの設定
->現在0に設定されてる腕は、腕2なので、デフォルト設定値に戻すと、腕2が表示されます。
->今回は右腕1をデフォルトの腕としたいと思いますので、パラメータの設定から基準値を-30へ変更しています。
->それぞれのパラメータは下記の通りです。
->右腕X：ParamArmRX
->右腕Y：ParamArmRY
->左腕X：ParamArmLX
->左腕Y：ParamArmLY
-
->書き出して3tenePro+Live2Dから読み込む。
+>Since the phenomenon that the arm is not displayed or two arms are displayed at the switching part of the arm occurs, set the opacity.
 
 
+> Example: Right arm 1 and right arm 2
+> Right arm 1
+> Right arm Y display range is -30 to -15. Hit the key to -14 and set the opacity to 0.
+> Right arm 2
+> The display range of right arm 2 is -14 to 14. Opacity 0 at -15 and 15.
+
+
+> Example: Right arm 2 and right arm 5
+> Hit the point keys of right arm Y-14 and right arm X 1.0 of right arm 2.
+> Since the key is automatically pressed at 14 points, the opacity is set to 0 at the added positions Y-14, 14, and X 1.
+> Make the same settings for the right arm 5.
+
+
+> There are some keys for which opacity is not set, so set each one.
+> Example: Right arm 1
+> Right arm Y-15, right arm X0 has opacity 100
+> Right arm Y-14, right arm X0 has opacity 0
+> Right arm Y-14, right arm X1 also has opacity 0
+> Right arm Y-15, right arm X1 Opacity 0
+
+
+> Set this setting for all other arms.
+
+
+> Rotate the right arm
+> Set keys at the four corners of the loop parameter.
+
+
+> Parameter and ID settings
+> The arm currently set to 0 is arm 2, so if you return to the default setting, arm 2 will be displayed.
+> This time, I want to use the right arm 1 as the default arm, so I changed the reference value from the parameter setting to -30.
+> Each parameter is as follows.
+> Right arm X: ParamArmRX
+> Right arm Y: ParamArmRY
+> Left arm X: ParamArmLX
+> Left arm Y: ParamArmLY
+
+
+> Export and import from 3tenePro Live2D.

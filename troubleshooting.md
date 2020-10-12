@@ -1,82 +1,81 @@
-## トラブルシューティング
+## Troubleshooting
 
-### 3tene が起動中のロゴ表示の後に止まってしまいます。
+### 3tene stops after displaying the logo while it is running.
 
->2019/01/18 フェイストラッキングが原因の起動不具合を修正。
->2019/04/12 録音機器が原因の起動不具合を修正。
+>2019/01/18 Fixed a startup bug caused by face tracking.
+>2019/04/12 Fixed a startup bug caused by recording equipment.
 
->最新の 3tene を試してみてください。
-
-
-### 3tene が起動中に強制終了されます。
-
->2019/08/09 動画保存機能が原因で強制終了される問題の対策を導入しました。
-
->alt キーを押しながら 3tene を起動すると動画保存機能が無効になり起動する場合があります。
->起動するようになった場合は 3tene をインストールしたフォルダに
->「動画無効.txt」もしくは「DisableMovie.txt」を作成すると（中身はカラでOK）
->常に動画保存機能が無効になります。
-
->動画保存を行いたい場合は別途 OBS をインストールして 3tene を録画してください。
+>Try the latest 3tene.
 
 
-### 3tene の起動中にエラーが表示されます。
+### 3tene crashes during startup.
 
->2020/06/30 修正を行いました。
+>2019/08/09 Introduced a countermeasure for the problem of forced termination due to the video save function.
 
->最新の 3tene を試してみてください。
+>If you start 3tene while holding down the alt key, the video save function may be disabled and start.
+>If it starts, go to the folder where you installed 3tene.
+> If you create "Video Disable.txt" or "DisableMovie.txt" (the contents are empty)
+> The video save function is always disabled.
 
->もし起動中に「Initialize Setting Error !!」が表示された場合は
->設定 → システム → 全設定のリセット
->で全設定をクリアすると改善する場合があります。
-
-
-### 3tene (Pro版) が起動中に強制終了されます。
-
->SteamVR の動作が不安定な場合に起こる事があるようです。
->SteamVR を終了し、VR 機器の接続（認識）を切った状態で起動してみてください。
+> If you want to save the video, please install OBS separately and record 3tene.
 
 
-### Mac で開発元が未確認と表示され 3tene が起動できません。
+### I get an error while starting 3tene.
 
->MacOS のバージョンによって対処が異なります。
+>2020/06/30 Corrected.
 
-><font color="Blue">・10.15.x Catalina 共通対処法（Mac が２台必要。）</font>
->Catalina ではない Mac で 3tene をダウンロードして zip を解凍する。
->解凍して生成されたフォルダを zip に再圧縮する。
->再圧縮した zip ファイルをUSBメモリで Catalina の Mac にコピーして解凍する。
->3tene を実行する。
+>Try the latest 3tene.
+
+>If &quot;Initialize Setting Error !!&quot; is displayed during startup
+>It may be improved by clearing all the settings with
+>Settings → System → Reset all settings
+
+
+### 3tene (Pro version) is killed during startup.
+
+>It seems that it may happen when the operation of SteamVR is unstable.
+>Please close SteamVR and start it with the VR device disconnected (recognition).
+
+
+### On Mac, the developer is displayed as unconfirmed and 3tene cannot be started.
+
+>The action depends on the version of MacOS.
+
+><font color="Blue">・10.15.x Catalina Common Workaround (2 Macs required)</font>
+>Download 3tene and unzip it on a Mac that isn&#39;t Catalina.
+>Recompress the unzipped and created folder into a zip.
+>Copy the recompressed zip file to a Catalina Mac with a USB stick and unzip it.
+>Run 3tene.
 
 ><font color="Blue">・10.15.2 Catalina</font>
->対処方法が確立できておりません。
+>The coping method has not been established.
 
 ><font color="Blue">・10.15.1 Catalina</font>
->確認しておりません。
+>We have not confirmed.
 
 ><font color="Blue">・10.15 Catalina</font>
->ターミナルから下記のように入力します。
+>Enter the following from the terminal.
 >sudo spctl --master-disable
->実行するとパスワード入力が求められるので入力します。
->上部メニューの「アップル」メニューから「システム環境設定」を選択。
->「セキュリティとプライバシー」選択して「一般」タブを選択。
->左下の「錠前（カギ）」をクリックしてパスワードを入力する。
->「すべてのアプリケーションを許可」を選択する。
->3tene を実行する。
+>When you execute it, you will be asked to enter the password, so enter it.
+> Select &quot;System Preferences&quot; from the &quot;Apple&quot; menu on the top menu.
+> Select &quot;Security &amp; Privacy&quot; and select the &quot;General&quot; tab.
+> Click &quot;Lock&quot; at the bottom left and enter the password.
+> Select &quot;Allow all applications&quot;. Execute
+> 3tene.
 
->・10.14.x Mojave 以前
->Control キーを押しながら3teneアイコンをクリック。
->「開く」で強制的に起動する。
+> · 10.14.x Mojave and earlier
+> Control-click the 3tene icon.
+> &quot;Open&quot; forcibly starts.
 
+### Face tracking doesn&#39;t work! (3tene ver 1 series)
 
-### フェイストラッキングが動作しません！ (3tene ver 1系)
+>Did you press the start button for face tracking on the right menu?
+>It turns green during operation.
+><font color="Red">* In many cases, you forget to press it.</font>
 
->右側メニューのフェイストラッキングの開始ボタンは押していますか？
->動作中は緑色に変化します。
-><font color="Red">※押し忘れている場合が多いです。</font>
+>![image](image/menu_face.png "Face recognition ON")
 
->![画像](image/menu_face.png "顔認識ON")
-
->また、アバターの調整で使用したいウェブカメラが指定されているかも確認してください。
+>Also, make sure you have specified the webcam you want to use to adjust your avatar.
 >確認方法は[こちら](#ft_webcamera.md)を参照してください。
 
 
@@ -384,5 +383,3 @@
 
 >2019/04/18 チラツキの対策を行いました。
 >最新の 3tene を試してみてください。
-
-

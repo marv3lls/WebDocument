@@ -1,28 +1,15 @@
 # 3tene WebDocument
 
-## 概要
+## Overview
 
-3tene の説明、解説のドキュメントです。
+It is a document of explanation and explanation of 3tene.
 
-参照する場合は Github Pages 経由で可能です。<br>
+You can refer to it via Github Pages.<br>
 [https://3tene.github.io/WebDocument/](https://3tene.github.io/WebDocument/)
 
-### 注意事項
+### Precautions
 
-ローカル環境で参照する場合は Edge が必要です。<br>
-Chrome や FireFox だと .md ファイルが正常に表示されません。
+Edge is required for browsing in the local environment.<br>
+.md files are not displayed properly in Chrome or FireFox.
 
-※ajax でローカルファイルにアクセスするとセキュリティにひっかかるようです。
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Accessing local files with ajax seems to be a security issue.

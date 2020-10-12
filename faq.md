@@ -1,103 +1,107 @@
 ## FAQ
 
-### 3tene を動かす為に必要なグラフィック機能は？
-
->Windows であれば DirectX 11 対応のグラフィック機能が必要となります。
->DirectX 9Ex でも動作するようですが処理落ちや表示崩れが発生します。
->Mac は Metal に対応していれば動作します。
->※Mac 2012年製品でも動作するようですがサポート対象外です。
+### What graphic functions do I need to run 3tene?
 
 
-### 3tene を利用する為に必要な機材はありますか？
+> For Windows, DirectX 11 compatible graphics function is required.
+> It seems to work with DirectX 9Ex, but processing dropouts and display corruption occur.
+> Mac will work if it supports Metal.
+> * It seems to work with Mac 2012 products, but it is not supported.
 
->特別な機材が無くてもキーボードとマウスでモデル操作は可能ですが、
->自然な動作をさせるにはウェブカメラやVR機器が必要になります。
-
->対応している機材については[こちら](#equipment.md)を参照してください。
-
-
-### どんなウェブカメラを使えばいいですか？
-
->30fps 以上に対応したウェブカメラが必要です。
->古いウェブカメラでも動作しますが 10fps 程度しか映像更新ができず、
->フェイストラッキングがスムーズに動作しない場合があります。
+### Do you have the necessary equipment to use 3tene?
 
 
-### VR でゴーグルを使わずに利用する事は可能ですか？
+> You can operate the model with the keyboard and mouse without any special equipment, but
+> you will need a webcam or VR device for natural operation.
 
->HTC Vive で頭にトラッカーを割り当てれば可能です。
->ただし、ゴーグルを使わない場合でもゴーグルを接続して認識させている必要があります。
-
-
-### 3teneSTUDIO で同じアバターを複数表示する事は可能ですか？
-
->保存ファイル名を変更して出力した VRM ファイルを複数用意する事で可能です。
->コピーで VRM ファイルを複製すると同じアバターと認識する為、複数表示はできません。
+>Click [here](#equipment.md) for compatible equipment.
 
 
-### 全体的に動きが遅いです。
+### What kind of webcam should I use?
 
->使用しているパソコンの処理速度が遅い可能性があります。
->3tene では2014年以降のパソコン (Core i5 4000 番台以降) が対象となります。
-
->フレームレート(画面の更新回数)を表示させて処理速度の確認が可能です。
-
->下記の操作でフレームレートを表示させます。
->3tene の設定 → システム → フレームレート(fps)の表示
->にチェックを付けてください。
-![画像](image/setting_fps.png "fps")
-
->画面右上にフレームレートが表示されます。
->フレームレートの値が 50～60fps をキープ出来ない場合は
->処理性能が足りていません。
+> You need a webcam that supports 30fps or higher.
+> It works with older webcams, but it can only update video at around 10fps, and
+> face tracking may not work smoothly.
 
 
-### 再生中の音でリップシンクを動作させる事は可能ですか？
+### Is it possible to use it in VR without using goggles?
 
->録音機器に「ステレオ ミキサー(Stereo Mixer)」を指定してください。
->使用しているPCによってはステレオミキサーが無い場合もあります。
+> You can do this by assigning a tracker to your head on the HTC Vive.
+> However, even if you do not use goggles, you need to connect and recognize the goggles.
 
->※録音機器のデバイスドライバを最新バージョンに更新すると
->　「ステレオ ミキサー」が使えるようになる場合もあります。
->　ただし、デバイスドライバの更新は自己責任でお願いします。
+### Is it possible to display the same avatar multiple times with 3teneSTUDIO?
 
 
-### 3tene のウインドウが非アクティブの状態でキーボード操作は可能ですか？
+> It is possible by changing the save file name and preparing multiple output VRM files.
+> If you duplicate the VRM file by copying, it will be recognized as the same avatar, so you cannot display multiple files.
 
->Windows の仕様に依存する部分でもあり対応は難しいです。
-
->キーボードでは不可能ですが代わりに MIDI 機器を使えば
->ウインドウが非アクティブ状態でもショートカット機能が動作します。
+### It's slow overall.
 
 
-### 同封されている東北ずん子(VRM)の利用に制限はありますか？
-
->クリエイターは非商用なら利用可能です。
->東北企業であれば無料で利用可能ですが、他県の企業は申請が必要です。
-![画像](image/zunko.jpg "ずん子")
->詳しくは[公式サイト](https://zunko.jp/guideline.html)を参照してください。
+> The processing speed of your computer may be slow.
+> 3tene applies to PCs from 2014 onwards (Core i5 4000 series and above).
 
 
-### 同封されているみとね(Live2D)の利用に制限はありますか？
-
->3teneの公式マスコット「みとね」は
->個人、法人、商用の有無に関わらず自由に利用できます。
-![画像](image/mitone.png "みとね")
->ただし、法令及び公序良俗に反するもの、キャラクターのイメージを損なうもの、
->特定の個人、政党、宗教団体を支援するものや
->上記に該当するおそれがあるものには利用できません。
+> You can check the processing speed by displaying the frame rate (number of screen updates).
 
 
-### 同封されている友利ユナ(Live2D)の利用に制限はありますか？
+> Display the frame rate by the following operation.
 
->自己責任のもと、動画投稿・生配信用のアバターとして使用する事が可能です。
-![画像](image/tomori_yuna.png "友利ユナ")
->詳しくは「JK_Tomori_yunaフォルダ」の「最初にお読み下さい_取扱説明書.txt」を参照してください。
+> 3tene settings → System → Frame rate (fps) display
+>Please check.
+![image](image/setting_fps.png "fps")
+
+>The frame rate is displayed in the upper right corner of the screen.
+>If the frame rate value cannot be kept at 50-60fps
+>The processing performance is insufficient.
 
 
-### 最初から同封されているモデルはどこにありますか？
+### Is it possible to operate Lip Sync with the sound being played?
 
->東北ずん子(VRM)、みとね＆友利ユナ(Live2D版のみ同封)は下記のフォルダにあります。
+>Specify "Stereo Mixer" as the recording device.
+>Depending on the PC you are using, you may not have a stereo mixer.
+
+>* If you update the device driver of the recording device to the latest version
+>You may be able to use a "stereo mixer".
+>However, please update the device driver at your own risk.
+
+
+### Is it possible to operate the keyboard while the 3tene window is inactive?
+
+>It is difficult to deal with because it depends on the specifications of Windows.
+
+>Not possible with a keyboard, but with a MIDI device instead
+>The shortcut function works even when the window is inactive.
+
+
+### Are there any restrictions on the use of the enclosed Tohoku Zunko (VRM)?
+
+>Creators are available for non-commercial use.
+>It can be used free of charge by Tohoku companies, but companies in other prefectures need to apply.
+![image](image/zunko.jpg "Zunko")
+>For more information, go to the [Official site](https://zunko.jp/guideline.html).
+
+
+### Are there any restrictions on the use of the enclosed Mitone (Live2D)?
+
+>3tene's official mascot "Mitone"
+>You can use it freely regardless of whether you are an individual, a corporation, or a business person.
+![image](image/mitone.png "Mitone")
+>However, things that violate laws and public order and morals, things that damage the character's image,
+>Those that support specific individuals, political parties, religious groups
+>It cannot be used for items that may fall under the above.
+
+
+### Are there any restrictions on the use of the enclosed Yuna Yuri (Live2D)?
+
+>At your own risk, you can use it as an avatar for video posting and live distribution.
+![image](image/tomori_yuna.png "Yuna Yuri")
+>For details, refer to "Please read first_Instruction Manual.txt" in the "JK_Tomori_yuna folder".
+
+
+### Where is the model enclosed from the beginning?
+
+>Tohoku Zunko (VRM), Mitone &amp; Yuna Yuri (Live2D version only included) are in the following folders.
 
 >Windows
 >C:\Program Files\PLUSPLUS\3tenePro+Live2D\3tene_Data\StreamingAssets\2Dmodel
@@ -108,36 +112,34 @@
 >/StreamingAssets/3Dmodel
 
 
-### 3tene を使って作成した動画に利用制限はありますか？
+### Are there any restrictions on the use of videos created using 3tene?
 
->基本的にはありません。
->配布および配信を自由に行う事ができます。
->ただし、商用利用の動画を作成する場合は個人、法人を問わず 3tenePRO の購入をお願いします。
->上記に該当しない場合は利用方法を[お問い合わせ](https://3tene.com/contact/)ください。
-
-
-### 個人事業主ですがフリー版は利用可能ですか？
-
->業務内容（請負、納品方法等）によって異なる場合があるので
->利用方法を[お問い合わせ](https://3tene.com/contact/)ください。
+>Basically not.
+>You can freely distribute and distribute.
+>However, if you want to create a video for commercial use, please purchase 3tenePRO regardless of whether you are an individual or a corporation.
+>If the above does not apply, please [contact Us](https://3tene.com/contact/).
 
 
-### 法人でもフリー版は利用可能ですか？
+### I am a sole proprietor, is the free version available?
 
->法人でのご利用の場合は [3tenePRO もしくは 3tenePRO+Live2D](https://3tene.com/pro_company/) の購入をお願いします。
->3tenePRO のご購入前に動作確認のみを目的としてフリー版を使用するのは問題ありません。
-
-
-### VTuber として商用利用したいのですが個人版は利用可能ですか？
-
->事務所所属の方は法人版の購入をお願いします。
->また、規模や利用方法によっても異なるので[お問い合わせ](https://3tene.com/contact/)ください。
+>Since it may differ depending on the business content (contract, delivery method, etc.)
+>Please [Contact Us](https://3tene.com/contact/).
 
 
-### 教育機関でもフリー版は利用可能ですか？
+### Is the free version available to corporations?
 
->使用者が生徒であり、報酬を得ない場合は利用可能です。
->作成した動画の動画サイトへのアップロードも問題ありません。
->上記に該当しない場合は利用方法を[お問い合わせ](https://3tene.com/contact/)ください。
+>For corporate use, please purchase [3tenePRO or 3tenePRO Live2D](https://3tene.com/pro_company/).
+>It is okay to use the free version only to check the operation before purchasing 3tenePRO.
 
 
+### I would like to use it for commercial use as VTuber. Is the personal version available?
+
+>If you belong to the office, please purchase the corporate version.
+>Also, please [contact us](https://3tene.com/contact/) as it depends on the scale and usage.
+
+
+### Is the free version available at educational institutions?
+
+>Available if the user is a student and does not receive a reward.
+>There is no problem uploading the created video to the video site.
+>If the above does not apply, please [contact us](https://3tene.com/contact/).

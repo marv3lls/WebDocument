@@ -1,81 +1,79 @@
-## VRMの作成について
+## About creating VRM
 
-### VRMとは？
+### What is VRM?
 
->3Dアバター向け汎用規格「VRM（Virtual Railroad Models）」の事で、
->ドワンゴ株式会社から2018年4月に発表されました。
+>General-purpose standard for 3D avatars "VRM (Virtual Railroad Models)"
+>It was announced by Dwango Co., Ltd. in April 2018.
 
->VRM は Khronos グループによって策定された汎用3Dフォーマット「glTF 2.0」を拡張して
->VRソフトウェアや VTuber 配信に最適化したフォーマットです。
+>VRM extends the general purpose 3D format "glTF 2.0" developed by the Khronos group
+>This format is optimized for VR software and VTuber distribution.
 
-><font color="Blue">人型に限定する事によりアバターを扱うソフトウェアで高い互換性を維持しています。</font>
+><font color="Blue">By limiting it to humanoids, we maintain high compatibility with software that handles avatars.</font>
 
->※Khronos は「OpenGL」や「Vulkan」等、３Ｄ技術を策定する非営利団体の技術コンソーシアムです。
-
-
-### どうすれば VRM を作れる？
-
->２つの方法が存在します。
->・VRM 保存に対応したモデリングソフトで作る（VRoidStudio 等）
->・作成したモデルを FBX で保存し、Unity で修正、調整後に VRM に変換する。
-
->後者は Unity のダウンロード、インストールを行った後に
->VRM のアセットをダウンロードして Unity に追加します。
-
-><font color="Blue">準備が出来たら作成済みのモデルデータ（FBX等）を取り込んで調整を行い、
->VRM にエクスポートするのが基本となりますが難易度は低くはありません。</font>
-
->最近ではモデリングソフトでも対応しているものが少しずつ増えているようです。
-
->無料のモデリングソフト Blender は追加プラグインによって
->VRMのインポートが可能になっています。
->VRM を作成する場合は FBX で出力を行い Unity で VRM に変換します。
-
->また、プロに使われているモデリングソフト MAYA も
->VRM のエクスポートに対応するプラグインがあります。
->※VRM のインポートには対応していません。
+>* Khronos is a technology consortium of non-profit organizations that develop 3D technologies such as "OpenGL" and "Vulkan".
 
 
-### 3tene で使用する VRM を作る場合の注意点は？
+### How can I make a VRM?
 
->VRM を作成する場合の注意点を記載します。
+>There are two methods.
+>・ Create with modeling software that supports VRM storage (VRoidStudio, etc.)
+>-Save the created model in FBX, modify it in Unity, adjust it, and then convert it to VRM.
 
->#### VRoidStudio で作成した VRM について
+>The latter is after downloading and installing Unity
+>Download the VRM assets and add them to Unity.
 
->VRoidStudio で作成した VRM を 3tene で読み込むのは問題ありませんが、
->VRoidStudio で作成した VRM を unity にインポートすると
-><font color="Blue">目のボーンの設定値が変化してしまい、目の移動範囲が狭くなります。
->VRM へのエクスポート前に目の修正が必要になります。</font>
+><font color="Blue">When you are ready, take in the created model data (FBX etc.), make adjustments, and make adjustments.
+>It is basically exported to VRM, but the difficulty is not low.</font>
 
->また一部の服装で描画崩れが発生する場合は 3tene の
->設定「システム」タブでクオリティを「Very High」以上に変更してみてください。
->![画像](image/quality_vroid.png "クオリティ")
+>Recently, it seems that the number of modeling software that supports it is gradually increasing.
 
+>Free modeling software Blender with additional plugins
+>VRM import is possible.
+>When creating a VRM, output it with FBX and convert it to VRM with Unity.
 
->#### First Person について
-
->3tene では VR に対応している為、VRM は First Person に対応している必要があります。
->対応していないと目、まぶた、口が２重に表示されるといった現象が発生します。
-
->VRM を First Person に対応させるか、該当する顔の部位に
->「Third Person Only」に設定変更を行って First Person を無効にしてください。
-><font color="Blue">※First Person を無効にすると VR 使用時の描画に問題が発生します。</font>
-
->#### iPhoneX フェイストラッキングの表情自動変更(表情認識)
-
->[こちら](#ft_iphone_expression.md)を参考に独自の表情を作成すると
->口の動きの競合を防ぐことが可能になります。
+>Also, the modeling software MAYA used by professionals
+>There is a plugin that supports VRM export.
+>* VRM import is not supported.
 
 
-### VRM の仕様は？
+### What are the precautions when creating a VRM for use with 3tene?
 
->下記のサイトより Unity 用のアセット入手や技術仕様の参照が可能です。
+>Here are some points to note when creating a VRM.
 
->VRM の公式サイト
->日本語：<a href="https://vrm.dev/" target="_blank">https://vrm.dev/</a>
->英語：<a href="https://vrm.dev/en/" target="_blank">https://vrm.dev/en/</a>
+>#### About VRM created by VRoidStudio
 
->VRM の技術仕様 (glTF 2.0 との差異および拡張仕様)
-><a href="https://github.com/vrm-c/vrm-specification/blob/master/specification/0.0/README.ja.md" target="_blank">日本語</a>　<a href="https://github.com/vrm-c/vrm-specification/blob/master/specification/0.0/README.md" target="_blank">英語</a>
+>It's okay to load a VRM created in VRoidStudio with 3tene,
+>When you import a VRM created by VRoidStudio into unity
+><font color="Blue">The set value of the eye bone will change, and the range of movement of the eye will be narrowed.
+>Eye modifications are required before exporting to VRM.</font>
+
+>Also, if drawing collapse occurs in some clothes, 3tene
+>Try changing the quality to "Very High" or higher on the Settings "System" tab.
+>![image](image/quality_vroid.png "quality")
 
 
+>#### About First Person
+
+>Since 3tene supports VR, VRM must support First Person.
+>If it is not supported, the phenomenon that the eyes, eyelids, and mouth are displayed twice will occur.
+
+>Make the VRM compatible with First Person or apply it to the relevant facial area
+>Disable First Person by changing the setting to "Third Person Only".
+><font color="Blue">* If First Person is disabled, problems will occur in drawing when using VR.</font>
+
+>#### Automatic facial expression change for iPhoneX face tracking (facial expression recognition)
+
+>If you create your own facial expression with reference to [this](#ft_iphone_expression.md)
+>It is possible to prevent conflict of mouth movements.
+
+
+### What are the VRM specifications?
+
+>You can get assets for Unity and refer to technical specifications from the following site.
+
+>VRM official website
+>Japanese: <a href="https://vrm.dev/" target="_blank">https://vrm.dev/</a>
+>English: <a href="https://vrm.dev/en/" target="_blank">https://vrm.dev/en/</a>
+
+>VRM technical specifications (differences from glTF 2.0 and extended specifications)
+><a href="https://github.com/vrm-c/vrm-specification/blob/master/specification/0.0/README.ja.md" target="_blank">Japanese</a>　<a href="https://github.com/vrm-c/vrm-specification/blob/master/specification/0.0/README.md" target="_blank">English</a>
