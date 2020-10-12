@@ -27,5 +27,12 @@
 >UnityCapture が Mac に対応していないので使えません。
 
 
+### 仮想環境や BootCamp の動作保証はしません。
+
+>仮想環境や BootCamp で起動した Windows で
+>3tene(Windows版) の正常動作は保証しません。
+
+>MacBook で BootCamp を使用して起動した Windows 上の
+>FaceTime HD Camera は解像度の問題で使用できないようです。
 
 

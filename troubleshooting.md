@@ -157,6 +157,9 @@
 >3tene → アバターの調整 → 設定 で待ち時間を長く設定してください。
 ><font color="Blue">※最近の Mac で発生する事が多いようです。</font>
 
+>MacBook で BootCamp を使用して起動した Windows 上の
+>FaceTime HD Camera は解像度の問題で使用できないようです。
+
 
 ### Windows でウェブカメラを２つ接続しましたがどちらか片方しか動作しません。
 

@@ -30,6 +30,7 @@
 |USB|USB2.0 x 1|←|
 |OS|Windows 7 SP1 64bit 以降|High Sierra 10.13.6以降|
 
+><font color="Red">※Mac で仮想環境や BootCamp を使用して Windows 版を使用するのは動作保証外です。</font>
 ><font color="Red">※MacBook (Pro、Air 含む) シリーズは2013以降のモデルを対象としています。</font>
 >※DirectX 11 以降に対応したグラフィック機能が必要になります。
 
